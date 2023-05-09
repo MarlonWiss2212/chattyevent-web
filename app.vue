@@ -3,9 +3,3 @@
     <NuxtPage />
   </div>
 </template>
-
-<script>
-definePageMeta({
-  middleware: ["standard"]
-})
-</script>
