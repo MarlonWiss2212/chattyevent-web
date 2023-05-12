@@ -50,6 +50,6 @@
       <h2 class="font-bold text-xl">12. Sonstige Bestimmungen</h2>
       <p class="mt-2">Sollte eine Bestimmung dieser Bedingungen für ungültig oder undurchsetzbar erklärt werden, bleibt die Gültigkeit und Durchsetzbarkeit der übrigen Bestimmungen unberührt. Unsere Unterlassung oder Verzögerung bei der Durchsetzung einer Bestimmung dieser Bedingungen stellt keinen Verzicht auf das Recht dar, diese Bestimmung später durchzusetzen.</p>
     </div>
-    <p class="mt-20">Diese Bedingungen stellen die vollständige und endgültige Vereinbarung zwischen Ihnen und uns in Bezug auf Ihre Nutzung unserer App dar und ersetzen alle vorherigen oder gleichzeitigen Vereinbarungen, Verhandlungen und Diskussionen zwischen uns. Wenn Sie Fragen oder Bedenken zu diesen Bedingungen haben oder uns kontaktieren möchten, senden Sie uns bitte eine E-Mail an marlon.gaming@outlook.de. Vielen Dank für Ihre Nutzung unserer App!</p>
+    <p class="mt-20">Diese Bedingungen stellen die vollständige und endgültige Vereinbarung zwischen Ihnen und uns in Bezug auf Ihre Nutzung unserer App dar und ersetzen alle vorherigen oder gleichzeitigen Vereinbarungen, Verhandlungen und Diskussionen zwischen uns. Wenn Sie Fragen oder Bedenken zu diesen Bedingungen haben oder uns kontaktieren möchten, senden Sie uns bitte eine E-Mail an support@chattyevent.com. Vielen Dank für Ihre Nutzung unserer App!</p>
   </div>
 </template>
