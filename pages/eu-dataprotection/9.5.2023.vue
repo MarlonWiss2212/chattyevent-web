@@ -8,7 +8,7 @@
     <div class="mt-6">
       <h2 class="font-bold text-xl">2. Verantwortliche Stelle</h2>
       <h3 class="mt-2">Verantwortliche Stelle im Sinne der DSGVO ist:</h3>
-      <p class="mt-2">Marlon Wißkirchen<br>Im Rossbüsch 13, 53489 Sinzig<br>support@chattyevent.com</p>
+      <p class="mt-2">Marlon Wißkirchen<br>Eifelstraße 15, 53489 Sinzig<br>support@chattyevent.com</p>
     </div>
     <div class="mt-6">
       <h2 class="font-bold text-xl">3. Die App erhebt und verarbeitet folgende personenbezogene Daten:</h2>
