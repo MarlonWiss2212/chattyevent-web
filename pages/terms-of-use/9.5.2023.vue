@@ -15,7 +15,7 @@
       <p class="mt-2">Alle Inhalte und Materialien, die in unserer App veröffentlicht gestellt werden, einschließlich Text, Bilder, Grafiken, Videos und Audio, sind durch geistige Eigentumsrechte geschützt. Sie dürfen diese Inhalte nur im Rahmen der Nutzung unserer App und gemäß diesen Bedingungen verwenden. Jede andere Verwendung, einschließlich der Vervielfältigung, Verbreitung oder Veröffentlichung von Inhalten, ist strengstens untersagt, es sei denn, Sie haben ausdrücklich die Erlaubnis des jeweiligen Rechteinhabers erhalten.</p>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">6. Verwendung von Hashtags, Marken und geistigem Eigentum</h2>
+      <h2 class="font-bold text-xl">4. Verwendung von Hashtags, Marken und geistigem Eigentum</h2>
       <p class="mt-2">Die Verwendung von Hashtags, Marken oder anderem geistigen Eigentum Dritter in Verbindung mit Ihrer Nutzung unserer App muss den geltenden Gesetzen und Vorschriften entsprechen. Sie dürfen keine Hashtags, Marken oder geistiges Eigentum Dritter verwenden, um unsere App oder unsere Dienstleistungen zu bewerben oder zu vermarkten, ohne unsere ausdrückliche schriftliche Zustimmung.</p>
     </div>
     <div class="mt-6">
