@@ -14,14 +14,14 @@
       <h2 class="font-bold text-xl">3. Die App erhebt und verarbeitet folgende personenbezogene Daten:</h2>
       <ul class="mt-2">
         <li>IP-Adresse</li>
-        <li>Anmeldedaten (Email)</li>
+        <li>Anmeldedaten (Email, Passwort)</li>
         <li>Nutzerdaten (Name, Vorname, Geburtstag, Profilbild, Username)</li>
-        <li>Event-userdaten (Status-user-be-there)</li>
-        <li>Einkaufsliste-userdaten (Eingekaufte Menge)</li>
-        <li>Gruppenchat-userdaten (admin)</li>
+        <li>Event-userdaten</li>
+        <li>Einkaufsliste-userdaten</li>
+        <li>Gruppenchat-userdaten</li>
       </ul>
       <p class="mt-2">Diese Daten werden ausschließlich für den Betrieb der App erhoben und genutzt. Eine Weitergabe an Dritte erfolgt nicht, es sei denn, dies ist gesetzlich vorgeschrieben oder für die Vertragserfüllung notwendig.</p>
-      <p class="mt-2">Die Daten werden nur so lange gespeichert, wie dies für den Betrieb der App erforderlich ist. Nach Ablauf dieser Zeit werden sie gelöscht.</p>
+      <p class="mt-2">Die Daten werden nur so lange gespeichert, wie dies für den Betrieb der App erforderlich ist. Nach Ablauf dieser Zeit werden sie gelöscht. Eine genaue Auflistung aller gespeicherten Daten können sie auch auf der Seite Recht auf Auskunft finden</p>
     </div>
     <div class="mt-6">
       <h2 class="font-bold text-xl">4. Verwendung von Cookies</h2>
