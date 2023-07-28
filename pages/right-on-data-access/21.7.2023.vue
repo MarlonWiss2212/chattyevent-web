@@ -91,6 +91,15 @@
         <p>Die Nachrichten Events speichern folgende Daten:</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
+          <li>createdAt</li>
+          <li>updatedAt</li>
+          <li>message (encrypted)</li>
+          <li>voiceMessage</li>
+          <li>files</li>
+          <li>readBy</li>
+          <li>messageToReactTo (swipe on reply)</li>
+          <li>currentLocation (if sending the location)</li>
+          <li>createdBy</li>
         </ul>
       </div>
     </div>
