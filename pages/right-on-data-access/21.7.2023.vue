@@ -103,5 +103,37 @@
         </ul>
       </div>
     </div>
+    <div class="mt-6">
+      <h2 class="font-bold text-xl">4. Einkaufslisten Item</h2>
+      <div class="mt-2">
+        <p>Die Nachrichten Events speichern folgende Daten:</p>
+        <ul class="list-disc list-inside mt-2 text-sm">
+          <li>_id</li>
+          <li>createdAt</li>
+          <li>updatedAt</li>
+          <li>itemName</li>
+          <li>unit</li>
+          <li>amount</li>
+          <li>userToBuyItem</li>
+          <li>privateEventTo</li>
+          <li>currentLocation (if sending the location)</li>
+          <li>createdBy</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-6">
+      <h2 class="font-bold text-xl">5. Einkaufslisten Item Eingekaufte Menge</h2>
+      <div class="mt-2">
+        <p>Die Nachrichten Events speichern folgende Daten:</p>
+        <ul class="list-disc list-inside mt-2 text-sm">
+          <li>_id</li>
+          <li>createdAt</li>
+          <li>updatedAt</li>
+          <li>boughtAmount</li>
+          <li>shoppingListItemTo</li>
+          <li>createdBy</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
