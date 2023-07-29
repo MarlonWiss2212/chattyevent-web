@@ -3,13 +3,16 @@
     <div class="sticky top-0 dark:bg-black dark:text-white">
       <nav class="flex flex-col md:flex-row py-10 gap-10 items-start md:items-center">
         <NuxtLink to="/" class="flex flex-row items-center">
-          <img class="w-12 rounded-md" src="~/public/icon.png" />
+          <img class="w-12 rounded-md" src="/icon.png" />
           <h2 class="text-4xl font-bold pl-4 pr-10">ChattyEvent</h2>          
         </NuxtLink>
         <div class="flex flex-row gap-10 overflow-x-auto w-full md:w-0 flex-grow">
           <NuxtLink to="/datasecurity" class="font-semibold">Datensicherheit</NuxtLink>
           <NuxtLink to="/faq" class="font-semibold">FAQ</NuxtLink>
         </div>
+        <NuxtLink to="https://play.google.com/store/apps/details?id=com.chattyevent.chattyevent">
+          <img class="w-52" src="/google-play-badge.png" />
+        </NuxtLink>
       </nav>
       <div class="h-px bg-slate-800 dark:bg-slate-500"></div>
     </div>
