@@ -1,9 +1,10 @@
 <template>
-  <div class="w-full p-5 overflow-y-auto">
+  <div class="w-full pb-10 overflow-y-auto">
     <h1 class="text-3xl font-bold">Recht auf Auskunft ChattyEvent</h1>
     <div class="mt-6">
       <h2 class="font-bold text-xl">1. Allgemeines</h2>
-      <p class="mt-2">Auf dieser Seite werden ihnen alle Daten dargestellt die wir sammeln. Die Verarbeitung der Daten ist in der Datenschutzerklärung beschrieben</p>
+      <p class="mt-2">Auf dieser Seite werden ihnen alle Daten dargestellt die wir sammeln. Die Verarbeitung der Daten ist in der Datenschutzerklärung beschrieben.</p>
+      <p class="mt-1">Bilder, Videos und Audio werden über Amzon S3 auf einem AWS Server gespeichert. Alle anderen Daten werden in einer NOSQL Datenbank auch auf einem AWS Server gespeichert</p>
     </div>
     <div class="mt-6">
       <h2 class="font-bold text-xl">2. Gruppenchats</h2>
@@ -88,7 +89,7 @@
     <div class="mt-6">
       <h2 class="font-bold text-xl">3. Nachrichten</h2>
       <div class="mt-2">
-        <p>Die Nachrichten Events speichern folgende Daten:</p>
+        <p>Die Nachrichten speichern folgende Daten:</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
@@ -106,7 +107,7 @@
     <div class="mt-6">
       <h2 class="font-bold text-xl">4. Einkaufslisten Item</h2>
       <div class="mt-2">
-        <p>Die Nachrichten Events speichern folgende Daten:</p>
+        <p>Die Einkaufslisten Items folgende Daten:</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
@@ -116,7 +117,6 @@
           <li>amount</li>
           <li>userToBuyItem</li>
           <li>privateEventTo</li>
-          <li>currentLocation (if sending the location)</li>
           <li>createdBy</li>
         </ul>
       </div>
@@ -124,7 +124,7 @@
     <div class="mt-6">
       <h2 class="font-bold text-xl">5. Einkaufslisten Item Eingekaufte Menge</h2>
       <div class="mt-2">
-        <p>Die Nachrichten Events speichern folgende Daten:</p>
+        <p>Die Einkaufslisten Items speichern mehrere Eingekaufte Mengen diese speichern folgende Daten:</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
@@ -132,6 +132,58 @@
           <li>boughtAmount</li>
           <li>shoppingListItemTo</li>
           <li>createdBy</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-6">
+      <h2 class="font-bold text-xl">6. User Verbindungen</h2>
+      <div class="mt-2">
+        <p>Die User Verbindungen Events speichern folgende Daten:</p>
+        <ul class="list-disc list-inside mt-2 text-sm">
+          <li>_id</li>
+          <li>createdAt</li>
+          <li>updatedAt</li>
+          <li>targetUserId</li>
+          <li>requesterUserId</li>
+          <li>status (Entweder "BLOCKED", "FOLLOWER" oder "REQUESTTOFOLLOW")</li>
+          <li>followData</li>
+          <ul class="list-disc list-inside ml-5">
+            <li>followedUserAt</li>
+            <li>updatedAt</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-6">
+      <h2 class="font-bold text-xl">7. User</h2>
+      <div class="mt-2">
+        <p>Die Nachrichten Events speichern folgende Daten:</p>
+        <ul class="list-disc list-inside mt-2 text-sm">
+          <li>_id</li>
+          <li>createdAt</li>
+          <li>updatedAt</li>
+          <li>username</li>
+          <li>authId (firebase)</li>
+          <li>firstname</li>
+          <li>lastname</li>
+          <li>profileImage</li>
+          <li>birthdate</li>
+          <li>permissions</li>
+          <ul class="list-disc list-inside ml-5">
+            <li>groupchatAddMe</li>
+            <ul class="list-disc list-inside ml-5">
+              <li>permission (entweder "NONE", "FOLLOWERS_EXCEPT" oder "ONLY_SELECTED_FOLLOWERS")</li>
+              <li>exceptUserIds</li>
+              <li>selectedUserIds</li>
+            </ul>
+            <li>privateEventAddMe</li>
+            <ul class="list-disc list-inside ml-5">
+              <li>permission (entweder "NONE", "FOLLOWERS_EXCEPT" oder "ONLY_SELECTED_FOLLOWERS")</li>
+              <li>exceptUserIds</li>
+              <li>selectedUserIds</li>
+            </ul>
+            <li>calendarWatchIHaveTime (true oder false)</li>
+          </ul>
         </ul>
       </div>
     </div>

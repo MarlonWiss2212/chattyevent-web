@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full p-5 overflow-y-auto">
+  <div class="w-full pb-10 overflow-y-auto">
     <h1 class="text-3xl font-bold">Nutzungsbedingungen ChattyEvent</h1>
     <p class="mt-6">Willkommen bei ChattyEvent. Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, da sie Ihre Nutzung der App regeln und wichtige Informationen über Ihre Rechte und Pflichten enthalten.</p>
     <div class="mt-6">

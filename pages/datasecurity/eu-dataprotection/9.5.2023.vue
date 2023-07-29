@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full p-5 overflow-y-auto">
+  <div class="w-full pb-10 overflow-y-auto">
     <h1 class="text-3xl font-bold">Datenschutzerklärung ChattyEvent</h1>
     <div class="mt-6">
       <h2 class="font-bold text-xl">1. Allgemeines</h2>
