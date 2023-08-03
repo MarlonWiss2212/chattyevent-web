@@ -42,7 +42,7 @@
       </div>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">2. Private Events</h2>
+      <h2 class="font-bold text-xl">2. Events</h2>
       <div class="mt-2">
         <p>Die Privaten Events speichern folgende nicht personenbezogenen Daten:</p>
         <ul class="list-disc list-inside mt-2 text-sm">

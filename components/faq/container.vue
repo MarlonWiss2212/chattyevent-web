@@ -9,7 +9,7 @@ defineProps<{
 }>()
 </script>
 <template>
-  <div class="rounded-lg dark:bg-slate-900 bg-indigo-200 p-4 transition ease-in-out delay-150 resize-none">
+  <div class="rounded-lg filter backdrop-blur-3xl bg-white/5 p-4 transition ease-in-out delay-150 resize-none">
     <div @click="opened = !opened" class="flex flex-row justify-between hover:cursor-pointer">
       <h4 class="text-2xl">{{ question }}</h4>
       <svg class="w-5" fill="#FFFFFF" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">

@@ -15,10 +15,10 @@
       <ul class="mt-2">
         <li>IP-Adresse</li>
         <li>Anmeldedaten (Email, Passwort)</li>
-        <li>Nutzerdaten (Name, Vorname, Geburtstag, Profilbild, Username)</li>
-        <li>Event-userdaten</li>
-        <li>Einkaufsliste-userdaten</li>
-        <li>Gruppenchat-userdaten</li>
+        <li>Nutzerdaten</li>
+        <li>Eventdaten</li>
+        <li>Einkaufslistendaten</li>
+        <li>Gruppenchatdaten</li>
       </ul>
       <p class="mt-2">Diese Daten werden ausschließlich für den Betrieb der App erhoben und genutzt. Eine Weitergabe an Dritte erfolgt nicht, es sei denn, dies ist gesetzlich vorgeschrieben oder für die Vertragserfüllung notwendig.</p>
       <p class="mt-2">Die Daten werden nur so lange gespeichert, wie dies für den Betrieb der App erforderlich ist. Nach Ablauf dieser Zeit werden sie gelöscht. Eine genaue Auflistung aller gespeicherten Daten können sie auch auf der Seite Recht auf Auskunft finden</p>
@@ -28,8 +28,8 @@
       <p class="mt-2">Die App nutzt nur diejenigen Cookies, die von der genutzten Werbeplattform Admob, Firebase oder Google Analytics bereitgestellt werden.</p>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">5. Verwendung von Google Analytics, Admob und Firebase</h2>
-      <p class="mt-2">Die App verwendet Google Analytics, Admob und Firebase, um die Nutzung der App zu analysieren und zu optimieren. Hierfür werden Daten wie IP-Adresse, Geräteinformationen und Nutzerverhalten erfasst und verarbeitet. Die Daten werden dabei anonymisiert, so dass keine Rückschlüsse auf einzelne Personen möglich sind.</p>
+      <h2 class="font-bold text-xl">5. Verwendung von Google Analytics, Admob, Goole Maps und Firebase</h2>
+      <p class="mt-2">Die App verwendet Google Analytics, Goole Maps, Admob und Firebase, um die Nutzung der App zu analysieren und zu optimieren. Hierfür werden Daten wie IP-Adresse, Geräteinformationen und Nutzerverhalten erfasst und verarbeitet. Die Daten werden dabei anonymisiert, so dass keine Rückschlüsse auf einzelne Personen möglich sind.</p>
     </div>
     <div class="mt-6">
       <h2 class="font-bold text-xl">6. Rechte der betroffenen Person</h2>
