@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col px-4 md:px-10 h-screen">
-    <nav class="z-10 flex flex-col md:flex-row md:py-10 py-4 md:gap-20 lg:gap-40 gap-4 items-center">
+    <nav class="z-10 flex flex-col md:flex-row md:py-10 py-4 md:gap-20 lg:gap-40 gap-x-0 gap-y-4 items-center">
       <NuxtLink to="/" class="flex flex-row items-center">
         <img class="w-12 rounded-md" src="/icon.png" />
         <h2 class="text-4xl font-bold pl-4 pr-10">ChattyEvent</h2>          
