@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col px-4 md:px-10">
-    <div class="sticky top-0 dark:bg-black dark:text-white z-10">
+    <div class="sticky top-0 dark:bg-black bg-white dark:text-white z-10">
       <nav class="flex flex-col md:flex-row md:py-10 py-4 md:gap-10 gap-4 items-center">
         <NuxtLink to="/" class="flex flex-row items-center">
           <img class="w-12 rounded-md" src="/icon.png" />

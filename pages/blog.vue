@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
   <div>
-    Blog
+    Keine Inhalte bisher
   </div>
 </template>
