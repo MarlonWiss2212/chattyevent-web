@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const localePath = useLocalePath()
 </script>
 
@@ -10,9 +11,9 @@ const localePath = useLocalePath()
         <h2 class="text-4xl font-bold pl-4 pr-10">ChattyEvent</h2>          
       </NuxtLink>
       <div class="flex flex-row gap-10 overflow-x-auto md:w-0 md:flex-grow">
-        <NuxtLink :to="localePath('/datasecurity')" class="font-semibold">{{  $t('appBar.datasecurity')  }}</NuxtLink>
-        <NuxtLink :to="localePath('/blog')" class="font-semibold">{{  $t('appBar.blog')  }}</NuxtLink>
-        <NuxtLink :to="localePath('/faq')" class="font-semibold">{{  $t('appBar.faq')  }}</NuxtLink>
+        <NuxtLink :to="localePath('/datasecurity')" class="font-semibold">{{  t('appBar.datasecurity')  }}</NuxtLink>
+        <NuxtLink :to="localePath('/blog')" class="font-semibold">{{  t('appBar.blog')  }}</NuxtLink>
+        <NuxtLink :to="localePath('/faq')" class="font-semibold">{{  t('appBar.faq')  }}</NuxtLink>
       </div>
     </nav>
     <div class="md:pt-10 pt-4 flex-grow overflow-y-auto no-scrollbar">

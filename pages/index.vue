@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 </script>
 
 
@@ -10,8 +11,8 @@
     <div class="flex flex-col">
       <div class="flex flex-col sm:flex-row items-center my-10">
         <div class="w-full sm:w-0 sm:flex-grow flex flex-col justify-center gap-20">
-          <h1 class="max-w-4xl text-4xl md:text-5xl font-semibold">{{ $t('index.title') }}</h1>
-          <h2 class="max-w-4xl font-semibold">{{ $t('index.description') }}</h2>
+          <h1 class="max-w-4xl text-4xl md:text-5xl font-semibold">{{ t('index.title') }}</h1>
+          <h2 class="max-w-4xl font-semibold">{{ t('index.description') }}</h2>
           <NuxtLink target="_blank" to="https://play.google.com/store/apps/details?id=com.chattyevent.chattyevent">
             <img class="w-52" alt="Play Store App Link" src="/google-play-badge.png" />
           </NuxtLink>

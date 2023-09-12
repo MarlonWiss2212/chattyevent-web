@@ -1,6 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
 <template>
   <div>
-    {{ $t("blog.title") }}
+    {{ t("blog.title") }}
   </div>
 </template>
