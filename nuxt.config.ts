@@ -12,5 +12,13 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
-  ]
+    '@nuxtjs/i18n'
+  ],
+  i18n: {
+    strategy: "prefix",
+    defaultLocale: "en",
+    detectBrowserLanguage: true,
+    locales: ["es", "en", "de", "pt", "it", "nl", "fr"],
+    vueI18n: "./i18n.config.ts",
+  }
 })

@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
   <div>
-    Keine Inhalte bisher
+    {{ $t("blog.title") }}
   </div>
 </template>
