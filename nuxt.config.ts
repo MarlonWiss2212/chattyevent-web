@@ -12,7 +12,8 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/i18n-edge'
+    '@nuxtjs/i18n-edge',
+    '@nuxtjs/i18n'
   ],
   i18n: {
     strategy: "prefix",
