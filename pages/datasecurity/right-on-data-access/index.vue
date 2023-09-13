@@ -1,15 +1,18 @@
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
+
 <template>
   <div class="w-full pb-10 overflow-y-auto">
-    <h1 class="text-3xl font-bold">Recht auf Auskunft ChattyEvent</h1>
+    <h1 class="text-3xl font-bold">{{ t('datasecurity.rightOnDataAccess.title') }}</h1>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">1. Allgemeines</h2>
-      <p class="mt-2">Auf dieser Seite werden ihnen alle Daten dargestellt die wir sammeln. Die Verarbeitung der Daten ist in der Datenschutzerklärung beschrieben.</p>
-      <p class="mt-1">Bilder, Videos und Audio werden über Amzon S3 auf einem AWS Server gespeichert. Alle anderen Daten werden in einer NOSQL Datenbank auch auf einem AWS Server gespeichert</p>
+      <h2 class="font-bold text-xl">1. {{ t('datasecurity.rightOnDataAccess.data.general') }}</h2>
+      <p class="mt-2">{{ t('datasecurity.rightOnDataAccess.data.generalText') }}</p>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">2. Gruppenchats</h2>
+      <h2 class="font-bold text-xl">2. {{ t('datasecurity.rightOnDataAccess.data.groupchats') }}</h2>
       <div class="mt-2">
-        <p>Die Gruppenchats speichern folgende nicht personenbezogenen Daten:</p>
+        <p>{{ t('datasecurity.rightOnDataAccess.data.groupchatsText') }}</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
@@ -18,7 +21,7 @@
           <li>profileImage</li>
           <li>description</li>
           <li>title</li>
-          <li>permissions (für alle unterfelder gilt "Admin" oder "Everyone")</li>
+          <li>permissions (for every subfield "Admin" or "Everyone")</li>
           <ul class="list-disc list-inside ml-5">
             <li>changeTitle</li>
             <li>changeDescription</li>
@@ -30,21 +33,21 @@
         </ul>
       </div>
       <div class="mt-2">
-        <p>Es werden folgende personenbezogenen Daten gespeichert:</p>
+        <p>{{ t('datasecurity.rightOnDataAccess.data.personalGroupchatsText') }}</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
-          <li>createdAt (entweder joinedAt oder leftChatAt)</li>
+          <li>createdAt (either joinedAt or leftChatAt)</li>
           <li>updatedAt</li>
           <li>userId</li>
-          <li>role (Entweder "Admin" oder "Member")</li>
+          <li>role (either "Admin" or "Member")</li>
           <li>usernameForChat</li>
         </ul>
       </div>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">2. Events</h2>
+      <h2 class="font-bold text-xl">2. {{ t('datasecurity.rightOnDataAccess.data.events') }}</h2>
       <div class="mt-2">
-        <p>Die Privaten Events speichern folgende nicht personenbezogenen Daten:</p>
+        <p>{{ t('datasecurity.rightOnDataAccess.data.eventsText') }}</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
@@ -53,12 +56,12 @@
           <li>coverImage</li>
           <li>title</li>
           <li>description</li>
-          <li>status (entweder "CANCELLED", "TAKES_PLACE" oder "UNDECIDED")</li>
+          <li>status (either "CANCELLED", "TAKES_PLACE" or "UNDECIDED")</li>
           <li>eventDate</li>
           <li>eventEndDate</li>
-          <li>groupchatTo (optinal verbundener Gruppenchat)</li>
-          <li>eventLocation (speichert Addresse und Koordinaten)</li>
-          <li>permissions (für alle unterfelder gilt "Organizer", "Creator Only" oder "Everyone")</li>
+          <li>groupchatTo (optional connected Gruppenchat)</li>
+          <li>eventLocation (saves Address and Coordinates)</li>
+          <li>permissions (for ever subfield "Organizer", "Creator Only" or "Everyone")</li>
           <ul class="list-disc list-inside ml-5">
             <li>changeTitle</li>
             <li>changeDescription</li>
@@ -74,27 +77,27 @@
         </ul>
       </div>
       <div class="mt-2">
-        <p>Es werden folgende personenbezogenen Daten gespeichert:</p>
+        <p>{{ t('datasecurity.rightOnDataAccess.data.personalEventsText') }}</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
-          <li>createdAt (entweder joinedEventAt oder leftEventAt)</li>
+          <li>createdAt (either joinedEventAt or leftEventAt)</li>
           <li>updatedAt</li>
           <li>userId</li>
-          <li>status (Entweder "ACCEPTED", "REJECTED", oder "INVITED")</li>
-          <li>role (Entweder "ORGANIZER" oder "MEMBER")</li>
+          <li>status (either "ACCEPTED", "REJECTED", or "INVITED")</li>
+          <li>role (either "ORGANIZER" or "MEMBER")</li>
           <li>usernameForChat</li>
         </ul>
       </div>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">3. Nachrichten</h2>
+      <h2 class="font-bold text-xl">3. {{ t('datasecurity.rightOnDataAccess.data.messages') }}</h2>
       <div class="mt-2">
-        <p>Die Nachrichten speichern folgende Daten:</p>
+        <p>{{ t('datasecurity.rightOnDataAccess.data.messagesText') }}</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
           <li>updatedAt</li>
-          <li>message (encrypted)</li>
+          <li>message</li>
           <li>voiceMessage</li>
           <li>files</li>
           <li>readBy</li>
@@ -105,9 +108,9 @@
       </div>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">4. Einkaufslisten Item</h2>
+      <h2 class="font-bold text-xl">4. {{ t('datasecurity.rightOnDataAccess.data.shoppingListItems') }}</h2>
       <div class="mt-2">
-        <p>Die Einkaufslisten Items folgende Daten:</p>
+        <p>{{ t('datasecurity.rightOnDataAccess.data.shoppingListItemsText') }}</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
@@ -122,9 +125,9 @@
       </div>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">5. Einkaufslisten Item Eingekaufte Menge</h2>
+      <h2 class="font-bold text-xl">5. {{ t('datasecurity.rightOnDataAccess.data.shoppingListItemsBoughtAmounts') }}</h2>
       <div class="mt-2">
-        <p>Die Einkaufslisten Items speichern mehrere Eingekaufte Mengen diese speichern folgende Daten:</p>
+        <p>{{ t('datasecurity.rightOnDataAccess.data.shoppingListItemsBoughtAmountsText') }}</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
@@ -136,16 +139,16 @@
       </div>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">6. User Verbindungen</h2>
+      <h2 class="font-bold text-xl">6. {{ t('datasecurity.rightOnDataAccess.data.userConnections') }}</h2>
       <div class="mt-2">
-        <p>Die User Verbindungen Events speichern folgende Daten:</p>
+        <p>{{ t('datasecurity.rightOnDataAccess.data.userConnectionsText') }}</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
           <li>updatedAt</li>
           <li>targetUserId</li>
           <li>requesterUserId</li>
-          <li>status (Entweder "BLOCKED", "FOLLOWER" oder "REQUESTTOFOLLOW")</li>
+          <li>status (either "BLOCKED", "FOLLOWER" or "REQUESTTOFOLLOW")</li>
           <li>followData</li>
           <ul class="list-disc list-inside ml-5">
             <li>followedUserAt</li>
@@ -155,9 +158,33 @@
       </div>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">7. User</h2>
+      <h2 class="font-bold text-xl">7. {{ t('datasecurity.rightOnDataAccess.data.requests') }}</h2>
       <div class="mt-2">
-        <p>Die Nachrichten Events speichern folgende Daten:</p>
+        <p>{{ t('datasecurity.rightOnDataAccess.data.requestsText') }}</p>
+        <ul class="list-disc list-inside mt-2 text-sm">
+          <li>_id</li>
+          <li>createdAt</li>
+          <li>updatedAt</li>
+          <li>createdBy</li>
+          <li>type (either "INVITATION", or "JOIN_REQUEST")</li>
+          <li>invitationData</li>
+          <ul class="list-disc list-inside ml-5">
+            <li>invitedUserId</li>
+            <li>eventUser</li>
+            <li>groupchatUser</li>
+          </ul>
+          <li>joinRequestData</li>
+          <ul class="list-disc list-inside ml-5">
+            <li>eventTo</li>
+            <li>groupchatTo</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-6">
+      <h2 class="font-bold text-xl">8. {{ t('datasecurity.rightOnDataAccess.data.users') }}</h2>
+      <div class="mt-2">
+        <p>{{ t('datasecurity.rightOnDataAccess.data.usersText') }}</p>
         <ul class="list-disc list-inside mt-2 text-sm">
           <li>_id</li>
           <li>createdAt</li>
@@ -172,17 +199,17 @@
           <ul class="list-disc list-inside ml-5">
             <li>groupchatAddMe</li>
             <ul class="list-disc list-inside ml-5">
-              <li>permission (entweder "NONE", "FOLLOWERS_EXCEPT" oder "ONLY_SELECTED_FOLLOWERS")</li>
+              <li>permission (either "NONE", "FOLLOWERS_EXCEPT" or "ONLY_SELECTED_FOLLOWERS")</li>
               <li>exceptUserIds</li>
               <li>selectedUserIds</li>
             </ul>
             <li>privateEventAddMe</li>
             <ul class="list-disc list-inside ml-5">
-              <li>permission (entweder "NONE", "FOLLOWERS_EXCEPT" oder "ONLY_SELECTED_FOLLOWERS")</li>
+              <li>permission (either "NONE", "FOLLOWERS_EXCEPT" or "ONLY_SELECTED_FOLLOWERS")</li>
               <li>exceptUserIds</li>
               <li>selectedUserIds</li>
             </ul>
-            <li>calendarWatchIHaveTime (true oder false)</li>
+            <li>calendarWatchIHaveTime (true or false)</li>
           </ul>
         </ul>
       </div>

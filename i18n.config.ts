@@ -33,6 +33,31 @@ export default defineI18nConfig(() => ({
             },
           }
         },
+        rightOnDataAccess: {
+          title: "Right on Data Access",
+          data: {
+            general: "General",
+            generalText: "On this page, we provide you with all the data we collect. The processing of the data is described in our privacy policy.",
+            groupchats: "Group Chats",
+            groupchatsText: "Group chats store the following non-personal data:",
+            personalGroupchatsText: "The following personal data is stored:",
+            events: "Events",
+            eventsText: "Private events store the following non-personal data:",
+            personalEventsText: "The following personal data is stored:",
+            messages: "Messages",
+            messagesText: "Messages store the following data:",
+            shoppingListItems: "Shopping List Items",
+            shoppingListItemsText: "Shopping list items store the following data:",
+            shoppingListItemsBoughtAmounts: "Shopping List Items Bought Amounts",
+            shoppingListItemsBoughtAmountsText: "Shopping list items bought amounts store the following data:",
+            userConnections: "User Connections",
+            userConnectionsText: "User connections events store the following data:",
+            requests: "Requests",
+            requestsText: "Requests store the following data:",
+            users: "Users",
+            usersText: "User data stores the following data:",
+          }
+        },
         rightOnDeletion: "Right on Deletion"
       },
       blog: {
@@ -83,6 +108,31 @@ export default defineI18nConfig(() => ({
               text:
                 'Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Der Inhalt der verlinkten Seiten liegt in der alleinigen Verantwortung ihrer Betreiber.',
             },
+          }
+        },
+        rightOnDataAccess: {
+          title: "Recht auf Datenzugriff",
+          data: {
+            general: "Allgemein",
+            generalText: "Auf dieser Seite stellen wir Ihnen alle Daten zur Verfügung, die wir sammeln. Die Verarbeitung der Daten ist in unserer Datenschutzerklärung beschrieben.",
+            groupchats: "Gruppenchats",
+            groupchatsText: "Gruppenchats speichern die folgenden nicht persönlichen Daten:",
+            personalGroupchatsText: "Folgende persönliche Daten werden gespeichert:",
+            events: "Veranstaltungen",
+            eventsText: "Private Veranstaltungen speichern die folgenden nicht persönlichen Daten:",
+            personalEventsText: "Folgende persönliche Daten werden gespeichert:",
+            messages: "Nachrichten",
+            messagesText: "Nachrichten speichern die folgenden Daten:",
+            shoppingListItems: "Einkaufslisten-Artikel",
+            shoppingListItemsText: "Einkaufslisten-Artikel speichern die folgenden Daten:",
+            shoppingListItemsBoughtAmounts: "Gekaufte Mengen der Einkaufsliste",
+            shoppingListItemsBoughtAmountsText: "Die gekauften Mengen der Einkaufslisten speichern die folgenden Daten:",
+            userConnections: "Benutzer-Verbindungen",
+            userConnectionsText: "Benutzer-Verbindungsereignisse speichern die folgenden Daten:",
+            requests: "Anfragen",
+            requestsText: "Anfragen speichern die folgenden Daten:",
+            users: "Benutzer",
+            usersText: "Benutzerdaten speichern die folgenden Daten:",
           }
         },
         rightOnDeletion: "Recht auf Löschung"
@@ -137,6 +187,31 @@ export default defineI18nConfig(() => ({
             },
           }
         },
+        rightOnDataAccess: {
+          title: "Recht op Gegevenstoegang",
+          data: {
+            general: "Algemeen",
+            generalText: "Op deze pagina stellen we alle gegevens beschikbaar die we verzamelen. De verwerking van de gegevens wordt beschreven in ons privacybeleid.",
+            groupchats: "Groepschats",
+            groupchatsText: "Groepschats slaan de volgende niet-persoonlijke gegevens op:",
+            personalGroupchatsText: "De volgende persoonlijke gegevens worden opgeslagen:",
+            events: "Evenementen",
+            eventsText: "Privé-evenementen slaan de volgende niet-persoonlijke gegevens op:",
+            personalEventsText: "De volgende persoonlijke gegevens worden opgeslagen:",
+            messages: "Berichten",
+            messagesText: "Berichten slaan de volgende gegevens op:",
+            shoppingListItems: "Boodschappenlijst Items",
+            shoppingListItemsText: "Boodschappenlijstitems slaan de volgende gegevens op:",
+            shoppingListItemsBoughtAmounts: "Gekochte Hoeveelheden van Boodschappenlijst Items",
+            shoppingListItemsBoughtAmountsText: "De gekochte hoeveelheden van boodschappenlijstitems slaan de volgende informatie op:",
+            userConnections: "Gebruikersverbindingen",
+            userConnectionsText: "Gebruikersverbindingen evenementen slaan de volgende gegevens op:",
+            requests: "Verzoeken",
+            requestsText: "Verzoeken slaan de volgende gegevens op:",
+            users: "Gebruikers",
+            usersText: "Gebruikersgegevens slaan de volgende gegevens op:",
+          }
+        },
         rightOnDeletion: "Recht op verwijdering"
       },
       blog: {
@@ -187,6 +262,31 @@ export default defineI18nConfig(() => ({
               text:
                 'A pesar de un control de contenidos cuidadoso, no asumimos ninguna responsabilidad por el contenido de los enlaces externos. El contenido de las páginas vinculadas es responsabilidad exclusiva de sus operadores.',
             },
+          }
+        },
+        rightOnDataAccess: {
+          title: "Derecho de Acceso a los Datos",
+          data: {
+            general: "General",
+            generalText: "En esta página, le proporcionamos todos los datos que recopilamos. El procesamiento de los datos está descrito en nuestra política de privacidad.",
+            groupchats: "Chats de Grupo",
+            groupchatsText: "Los chats de grupo almacenan la siguiente información no personal:",
+            personalGroupchatsText: "Se almacenan los siguientes datos personales:",
+            events: "Eventos",
+            eventsText: "Los eventos privados almacenan la siguiente información no personal:",
+            personalEventsText: "Se almacenan los siguientes datos personales:",
+            messages: "Mensajes",
+            messagesText: "Los mensajes almacenan la siguiente información:",
+            shoppingListItems: "Artículos de la Lista de Compras",
+            shoppingListItemsText: "Los artículos de la lista de compras almacenan la siguiente información:",
+            shoppingListItemsBoughtAmounts: "Cantidad Comprada de Artículos de la Lista de Compras",
+            shoppingListItemsBoughtAmountsText: "La cantidad comprada de los artículos de la lista de compras almacena la siguiente información:",
+            userConnections: "Conexiones de Usuarios",
+            userConnectionsText: "Los eventos de conexiones de usuarios almacenan la siguiente información:",
+            requests: "Solicitudes",
+            requestsText: "Las solicitudes almacenan la siguiente información:",
+            users: "Usuarios",
+            usersText: "Los datos de usuario almacenan la siguiente información:",
           }
         },
         rightOnDeletion: "Derecho de eliminación"
@@ -241,6 +341,31 @@ export default defineI18nConfig(() => ({
             },
           }
         },
+        rightOnDataAccess: {
+          title: "Direito de Acesso aos Dados",
+          data: {
+            general: "Geral",
+            generalText: "Nesta página, fornecemos todos os dados que coletamos. O processamento dos dados está descrito em nossa política de privacidade.",
+            groupchats: "Chats em Grupo",
+            groupchatsText: "Os chats em grupo armazenam os seguintes dados não pessoais:",
+            personalGroupchatsText: "Os seguintes dados pessoais são armazenados:",
+            events: "Eventos",
+            eventsText: "Os eventos privados armazenam os seguintes dados não pessoais:",
+            personalEventsText: "Os seguintes dados pessoais são armazenados:",
+            messages: "Mensagens",
+            messagesText: "As mensagens armazenam os seguintes dados:",
+            shoppingListItems: "Itens da Lista de Compras",
+            shoppingListItemsText: "Os itens da lista de compras armazenam os seguintes dados:",
+            shoppingListItemsBoughtAmounts: "Quantidade Comprada de Itens da Lista de Compras",
+            shoppingListItemsBoughtAmountsText: "A quantidade comprada de itens da lista de compras armazena a seguinte informação:",
+            userConnections: "Conexões de Usuários",
+            userConnectionsText: "Os eventos de conexões de usuários armazenam os seguintes dados:",
+            requests: "Solicitações",
+            requestsText: "As solicitações armazenam os seguintes dados:",
+            users: "Usuários",
+            usersText: "Os dados de usuário armazenam os seguintes dados:",
+          }
+        },
         rightOnDeletion: "Direito de Eliminação"
       },
       blog: {
@@ -293,6 +418,31 @@ export default defineI18nConfig(() => ({
             },
           }
         },
+        rightOnDataAccess: {
+          title: "Diritto di Accesso ai Dati",
+          data: {
+            general: "Generale",
+            generalText: "In questa pagina, ti forniamo tutti i dati che raccogliamo. Il trattamento dei dati è descritto nella nostra informativa sulla privacy.",
+            groupchats: "Chat di Gruppo",
+            groupchatsText: "Le chat di gruppo memorizzano i seguenti dati non personali:",
+            personalGroupchatsText: "Sono memorizzati i seguenti dati personali:",
+            events: "Eventi",
+            eventsText: "Gli eventi privati memorizzano i seguenti dati non personali:",
+            personalEventsText: "Sono memorizzati i seguenti dati personali:",
+            messages: "Messaggi",
+            messagesText: "I messaggi memorizzano i seguenti dati:",
+            shoppingListItems: "Articoli della Lista della Spesa",
+            shoppingListItemsText: "Gli articoli della lista della spesa memorizzano i seguenti dati:",
+            shoppingListItemsBoughtAmounts: "Quantità Acquistata degli Articoli della Lista della Spesa",
+            shoppingListItemsBoughtAmountsText: "La quantità acquistata degli articoli della lista della spesa memorizza le seguenti informazioni:",
+            userConnections: "Connessioni degli Utenti",
+            userConnectionsText: "Gli eventi di connessioni degli utenti memorizzano i seguenti dati:",
+            requests: "Richieste",
+            requestsText: "Le richieste memorizzano i seguenti dati:",
+            users: "Utenti",
+            usersText: "I dati degli utenti memorizzano i seguenti dati:",
+          }
+        },
         rightOnDeletion: "Diritto di cancellazione"
       },
       blog: {
@@ -343,6 +493,31 @@ export default defineI18nConfig(() => ({
               text:
                 'Malgré un contrôle attentif du contenu, nous déclinons toute responsabilité quant au contenu des liens externes. Le contenu des pages liées relève de la seule responsabilité de leurs exploitants.',
             },
+          }
+        },
+        rightOnDataAccess: {
+          title: "Droit d'accès aux données",
+          data: {
+            general: "Général",
+            generalText: "Sur cette page, nous vous fournissons toutes les données que nous collectons. Le traitement des données est décrit dans notre politique de confidentialité.",
+            groupchats: "Chats de groupe",
+            groupchatsText: "Les chats de groupe stockent les données non personnelles suivantes :",
+            personalGroupchatsText: "Les données personnelles suivantes sont stockées :",
+            events: "Événements",
+            eventsText: "Les événements privés stockent les données non personnelles suivantes :",
+            personalEventsText: "Les données personnelles suivantes sont stockées :",
+            messages: "Messages",
+            messagesText: "Les messages stockent les données suivantes :",
+            shoppingListItems: "Articles de liste de courses",
+            shoppingListItemsText: "Les articles de liste de courses stockent les données suivantes :",
+            shoppingListItemsBoughtAmounts: "Quantités achetées de la liste de courses",
+            shoppingListItemsBoughtAmountsText: "Les quantités achetées d'articles de la liste de courses stockent les données suivantes :",
+            userConnections: "Connexions d'utilisateurs",
+            userConnectionsText: "Les événements de connexions d'utilisateurs stockent les données suivantes :",
+            requests: "Demandes",
+            requestsText: "Les demandes stockent les données suivantes :",
+            users: "Utilisateurs",
+            usersText: "Les données utilisateur stockent les données suivantes :",
           }
         },
         rightOnDeletion: "Droit de suppression"
