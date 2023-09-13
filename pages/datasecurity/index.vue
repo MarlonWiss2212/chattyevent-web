@@ -8,7 +8,7 @@ const { t } = useI18n()
   <div class="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 text-xl font-bold">
     <DatasecurityContainer to="/datasecurity/eu-dataprotection" :title="t('datasecurity.privacyPolicy')" />
     <DatasecurityContainer to="/datasecurity/terms-of-use" :title="t('datasecurity.termsOfUse')" />
-    <DatasecurityContainer to="/datasecurity/imprint" :title="t('datasecurity.imprint')" />
+    <DatasecurityContainer to="/datasecurity/imprint" :title="t('datasecurity.imprint.title')" />
     <DatasecurityContainer to="/datasecurity/right-on-deletion" :title="t('datasecurity.rightOnDeletion')" />
   </div>
 </template>

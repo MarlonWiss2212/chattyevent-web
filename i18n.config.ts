@@ -15,7 +15,24 @@ export default defineI18nConfig(() => ({
       datasecurity: {
         privacyPolicy: "Privacy Policy",
         termsOfUse: "Terms of Use",
-        imprint: "Imprint",
+        imprint: {
+          title: "Imprint",
+          data: {
+            imprintDescription: 'Imprint according to § 5 TMG:',
+            name: 'Name: Marlon Wißkirchen',
+            city: 'City: Sinzig 53489',
+            address: 'Address: Im Rossbüsch 13',
+            country: 'Country: Germany',
+            number: 'Number: +4917672996744',
+            email: 'E-Mail: support@chattyevent.com',
+            website: 'Website: chattyevent.com',
+            disclaimer: {
+              title: 'Disclaimer:',
+              text:
+                'Despite careful content control, we do not assume any liability for the content of external links. The content of the linked pages is the sole responsibility of their operators.',
+            },
+          }
+        },
         rightOnDeletion: "Right on Deletion"
       },
       blog: {
@@ -50,7 +67,24 @@ export default defineI18nConfig(() => ({
       datasecurity: {
         privacyPolicy: "Datenschutzerklärung",
         termsOfUse: "Nutzungsbedingungen",
-        imprint: "Impressum",
+        imprint: {
+          title: "Impressum",
+          data: {
+            imprintDescription: 'Impressum gemäß § 5 TMG:',
+            name: 'Name: Marlon Wißkirchen',
+            city: 'Stadt: Sinzig 53489',
+            address: 'Adresse: Im Rossbüsch 13',
+            country: 'Land: Deutschland',
+            number: 'Nummer: +4917672996744',
+            email: 'E-Mail: support@chattyevent.com',
+            website: 'Website: chattyevent.com',
+            disclaimer: {
+              title: 'Haftungshinweis:',
+              text:
+                'Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Der Inhalt der verlinkten Seiten liegt in der alleinigen Verantwortung ihrer Betreiber.',
+            },
+          }
+        },
         rightOnDeletion: "Recht auf Löschung"
       },
       blog: {
@@ -85,7 +119,24 @@ export default defineI18nConfig(() => ({
       datasecurity: {
         privacyPolicy: "Privacybeleid",
         termsOfUse: "Gebruiksvoorwaarden",
-        imprint: "Afdruk",
+        imprint: {
+          title: "Afdruk",
+          data: {
+            imprintDescription: 'Afdruk conform § 5 TMG:',
+            name: 'Naam: Marlon Wißkirchen',
+            city: 'Stad: Sinzig 53489',
+            address: 'Adres: Im Rossbüsch 13',
+            country: 'Land: Duitsland',
+            number: 'Nummer: +4917672996744',
+            email: 'E-mail: support@chattyevent.com',
+            website: 'Website: chattyevent.com',
+            disclaimer: {
+              title: 'Disclaimer:',
+              text:
+                'Ondanks zorgvuldige inhoudelijke controle aanvaarden wij geen aansprakelijkheid voor de inhoud van externe links. De inhoud van de gekoppelde pagina\'s is uitsluitend de verantwoordelijkheid van de exploitanten ervan.',
+            },
+          }
+        },
         rightOnDeletion: "Recht op verwijdering"
       },
       blog: {
@@ -120,7 +171,24 @@ export default defineI18nConfig(() => ({
       datasecurity: {
         privacyPolicy: "Política de privacidad",
         termsOfUse: "Términos de uso",
-        imprint: "Impresión",
+        imprint: {
+          title: "Impresión",
+          data: {
+            imprintDescription: 'Impresión de acuerdo con el § 5 TMG:',
+            name: 'Nombre: Marlon Wißkirchen',
+            city: 'Ciudad: Sinzig 53489',
+            address: 'Dirección: Im Rossbüsch 13',
+            country: 'País: Alemania',
+            number: 'Número: +4917672996744',
+            email: 'Correo electrónico: support@chattyevent.com',
+            website: 'Sitio web: chattyevent.com',
+            disclaimer: {
+              title: 'Aviso legal:',
+              text:
+                'A pesar de un control de contenidos cuidadoso, no asumimos ninguna responsabilidad por el contenido de los enlaces externos. El contenido de las páginas vinculadas es responsabilidad exclusiva de sus operadores.',
+            },
+          }
+        },
         rightOnDeletion: "Derecho de eliminación"
       },
       blog: {
@@ -155,7 +223,24 @@ export default defineI18nConfig(() => ({
       datasecurity: {
         privacyPolicy: "Política de Privacidade",
         termsOfUse: "Termos de Utilização",
-        imprint: "Impressão",
+        imprint: {
+          title: "Impressão",
+          data: {
+            imprintDescription: 'Impressão de acordo com o § 5 TMG:',
+            name: 'Nome: Marlon Wißkirchen',
+            city: 'Cidade: Sinzig 53489',
+            address: 'Endereço: Im Rossbüsch 13',
+            country: 'País: Alemanha',
+            number: 'Número: +4917672996744',
+            email: 'E-mail: support@chattyevent.com',
+            website: 'Website: chattyevent.com',
+            disclaimer: {
+              title: 'Aviso Legal:',
+              text:
+                'Apesar do controle cuidadoso do conteúdo, declinamos toda e qualquer responsabilidade pelo conteúdo de links externos. O conteúdo das páginas vinculadas é de responsabilidade exclusiva de seus operadores.',
+            },
+          }
+        },
         rightOnDeletion: "Direito de Eliminação"
       },
       blog: {
@@ -190,7 +275,24 @@ export default defineI18nConfig(() => ({
       datasecurity: {
         privacyPolicy: "Informativa sulla privacy",
         termsOfUse: "Termini di utilizzo",
-        imprint: "Impressum",
+        imprint: {
+          title: "Impressum",
+          data: {
+            imprintDescription: 'Impressum secondo il § 5 TMG:',
+            name: 'Nome: Marlon Wißkirchen',
+            city: 'Città: Sinzig 53489',
+            address: 'Indirizzo: Im Rossbüsch 13',
+            country: 'Paese: Germania',
+            number: 'Numero: +4917672996744',
+            email: 'E-mail: support@chattyevent.com',
+            website: 'Sito web: chattyevent.com',
+            disclaimer: {
+              title: 'Disclaimer:',
+              text:
+                'Nonostante un controllo accurato dei contenuti, decliniamo ogni responsabilità per i contenuti dei link esterni. Il contenuto delle pagine collegate è di esclusiva responsabilità dei loro gestori.',
+            },
+          }
+        },
         rightOnDeletion: "Diritto di cancellazione"
       },
       blog: {
@@ -225,7 +327,24 @@ export default defineI18nConfig(() => ({
       datasecurity: {
         privacyPolicy: "Politique de confidentialité",
         termsOfUse: "Conditions d'utilisation",
-        imprint: "Mention légale",
+        imprint: {
+          title: "Mention légale",
+          data: {
+            imprintDescription: 'Mention légale conformément à l\'article 5 TMG :',
+            name: 'Nom : Marlon Wißkirchen',
+            city: 'Ville : Sinzig 53489',
+            address: 'Adresse : Im Rossbüsch 13',
+            country: 'Pays : Allemagne',
+            number: 'Numéro : +4917672996744',
+            email: 'E-mail : support@chattyevent.com',
+            website: 'Site web : chattyevent.com',
+            disclaimer: {
+              title: 'Avis de non-responsabilité :',
+              text:
+                'Malgré un contrôle attentif du contenu, nous déclinons toute responsabilité quant au contenu des liens externes. Le contenu des pages liées relève de la seule responsabilité de leurs exploitants.',
+            },
+          }
+        },
         rightOnDeletion: "Droit de suppression"
       },
       blog: {
