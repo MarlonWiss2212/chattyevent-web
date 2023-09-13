@@ -2,6 +2,9 @@
 const { t } = useI18n()
 </script>
 <template>
+  <head>
+    <title>ChattyEvent {{ t('datasecurity.imprint.title') }}</title>
+  </head>
   <div class="w-full pb-10 overflow-y-auto">
     <h1 class="text-3xl font-bold">{{ t('datasecurity.imprint.title') }}</h1>
     <div class="mt-6">
