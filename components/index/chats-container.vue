@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <index-container title="Chats">
-    <img src="/chat.png" class="w-52">
+    <NuxtImg alt="ChattyEvent Chats Image" src="/chat.png" class="w-52"/>
     <p>
       In ChattyEvent gibt es 3 Arten von Chats: "Gruppenchats", "Eventchats", "Einzelchats"
       <br><br>

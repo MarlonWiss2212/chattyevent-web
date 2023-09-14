@@ -7,7 +7,7 @@ const { t } = useI18n()
     <title>ChattyEvent {{ t('datasecurity.rightOnDataAccess.title') }}</title>
   </head>
   <div class="w-full pb-10 overflow-y-auto">
-    <h1 class="text-3xl font-bold">{{ t('datasecurity.rightOnDataAccess.title') }}</h1>
+    <h1 class="text-3xl font-bold">ChattyEvent {{ t('datasecurity.rightOnDataAccess.title') }}</h1>
     <div class="mt-6">
       <h2 class="font-bold text-xl">1. {{ t('datasecurity.rightOnDataAccess.data.general') }}</h2>
       <p class="mt-2">{{ t('datasecurity.rightOnDataAccess.data.generalText') }}</p>

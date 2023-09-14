@@ -13,12 +13,17 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n-edge',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@nuxt/image',
   ],
   i18n: {
     strategy: "prefix",
     defaultLocale: "en",
-    detectBrowserLanguage: true,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+    },
     locales: ["es", "en", "de", "pt", "it", "nl", "fr"],
     vueI18n: "./i18n.config.ts",
   }

@@ -9,7 +9,7 @@ export default defineI18nConfig(() => ({
         faq: "FAQ"
       },
       index: {
-        title: 'Plan your events and parties easily and chat with your friends using ChattyEvent!',
+        title: "Plan your events and parties easily and chat with your friends using ChattyEvent!",
         description: "ChattyEvent is the ultimate solution for your party and event planning! Our innovative app is all about group interaction and makes it easy for you to communicate with your friends, family or colleagues. Whether you're organizing an epic party or just want to keep in closer touch, ChattyEvent is the ideal companion to bring all your contacts together in one central place."
       },
       datasecurity: {
@@ -20,7 +20,7 @@ export default defineI18nConfig(() => ({
             generalText: "On this page, we provide you with all the data we collect. The processing of the data is described in our privacy policy.",
             responsibleParty: "Responsible Party",
             responsiblePartyTitle: "Responsible Party under the GDPR:",
-            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support@chattyevent.com",
+            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support{'@'}chattyevent.com",
             personalDataCollection: "Personal Data Collection",
             personalDataCollectionText: "These data are only collected and used for the operation of the app. They will not be disclosed to third parties unless required by law or necessary for the fulfillment of the contract.",
             dataRetention: "The data will only be stored for as long as is necessary for the operation of the app. After this time, they will be deleted. You can also find an exact list of all stored data on the Right to Access page.",
@@ -35,27 +35,32 @@ export default defineI18nConfig(() => ({
             dataSecurity: "Data Security",
             dataSecurityText: "We use technical and organizational measures to protect your personal data from loss, destruction, manipulation, and unauthorized access. Our security measures are regularly reviewed and adapted to the current state of the art.",
             contact: "Contact",
-            contactText: "If you have any questions or concerns regarding this privacy policy, you can contact us at any time by email at support@chattyevent.com.",
+            contactText: "If you have any questions or concerns regarding this privacy policy, you can contact us at any time by email at support{'@'}chattyevent.com.",
             finalProvisions: "Final Provisions",
             finalProvisionsText: "This privacy policy is subject to German data protection law and the General Data Protection Regulation (GDPR).\n\nShould individual provisions of this privacy policy be or become invalid, this shall not affect the validity of the remaining provisions. In place of the invalid provisions, an effective regulation shall apply which comes closest to the purpose of the invalid provision.\n\nThis privacy policy was last updated on May 9, 2023."
           }
         },
-        termsOfUse: "Terms of Use",
+        termsOfUse: {
+          title: "Terms of Use",
+          data: {
+            //data
+          }
+        },
         imprint: {
           title: "Imprint",
           data: {
-            imprintDescription: 'Imprint according to § 5 TMG:',
-            name: 'Name: Marlon Wißkirchen',
-            city: 'City: Sinzig 53489',
-            address: 'Address: Im Rossbüsch 13',
-            country: 'Country: Germany',
-            number: 'Number: +4917672996744',
-            email: 'E-Mail: support@chattyevent.com',
-            website: 'Website: chattyevent.com',
+            imprintDescription: "Imprint according to § 5 TMG:",
+            name: "Name: Marlon Wißkirchen",
+            city: "City: Sinzig 53489",
+            address: "Address: Im Rossbüsch 13",
+            country: "Country: Germany",
+            number: "Number: +4917672996744",
+            email: "E-Mail: support{'@'}chattyevent.com",
+            website: "Website: chattyevent.com",
             disclaimer: {
-              title: 'Disclaimer:',
+              title: "Disclaimer:",
               text:
-                'Despite careful content control, we do not assume any liability for the content of external links. The content of the linked pages is the sole responsibility of their operators.',
+                "Despite careful content control, we do not assume any liability for the content of external links. The content of the linked pages is the sole responsibility of their operators.",
             },
           }
         },
@@ -84,7 +89,20 @@ export default defineI18nConfig(() => ({
             usersText: "User data stores the following data:",
           }
         },
-        rightOnDeletion: "Right on Deletion"
+        rightOnDeletion: {
+          title: "Right on Deletion",
+          data: {
+            general: "General",
+            generalText: "On this page, we explain how you can permanently delete all your data.",
+            instructions: "Instructions",
+            instructionsList: {
+              0: "Open the ChattyEvent App",
+              1: "Navigate to the Settings page",
+              2: 'Go to "Info & Data Privacy" and select "Right to Deletion"',
+              3:'Click "Delete Data" and confirm by clicking "Yes"',
+            },
+          }
+        }
       },
       blog: {
         title: "No content so far"
@@ -112,7 +130,7 @@ export default defineI18nConfig(() => ({
         faq: "FAQ"
       },
       index: {
-        title: 'Plane deine Events und Partys einfach und chatte mit deinen Freunden mit ChattyEvent!',
+        title: "Plane deine Events und Partys einfach und chatte mit deinen Freunden mit ChattyEvent!",
         description: "ChattyEvent ist die ultimative Lösung für deine Party- und Eventplanung! Unsere innovative App dreht sich alles um Gruppeninteraktion und macht es dir leicht, mit deinen Freunden, deiner Familie oder deinen Kollegen zu kommunizieren. Egal, ob du eine epische Party organisierst oder einfach in engerem Kontakt bleiben möchtest, ChattyEvent ist der ideale Begleiter, um alle deine Kontakte an einem zentralen Ort zusammenzubringen."
       },
       datasecurity: {
@@ -123,7 +141,7 @@ export default defineI18nConfig(() => ({
             generalText: "Auf dieser Seite geben wir Ihnen einen Überblick über alle von uns gesammelten Daten. Die Verarbeitung der Daten ist in unserer Datenschutzerklärung beschrieben.",
             responsibleParty: "Verantwortliche Stelle",
             responsiblePartyTitle: "Verantwortliche Stelle gemäß DSGVO:",
-            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support@chattyevent.com",
+            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support{'@'}chattyevent.com",
             personalDataCollection: "Erhebung personenbezogener Daten",
             personalDataCollectionText: "Diese Daten werden nur für den Betrieb der App erfasst und genutzt. Sie werden nicht an Dritte weitergegeben, es sei denn, dies ist gesetzlich vorgeschrieben oder für die Vertragserfüllung notwendig.",
             dataRetention: "Die Daten werden nur so lange gespeichert, wie dies für den Betrieb der App erforderlich ist. Nach Ablauf dieser Zeit werden sie gelöscht. Eine genaue Auflistung aller gespeicherten Daten finden Sie auch auf der Seite Recht auf Auskunft.",
@@ -138,27 +156,57 @@ export default defineI18nConfig(() => ({
             dataSecurity: "Datensicherheit",
             dataSecurityText: "Wir setzen technische und organisatorische Maßnahmen ein, um Ihre personenbezogenen Daten vor Verlust, Zerstörung, Manipulation und unberechtigtem Zugriff zu schützen. Unsere Sicherheitsmaßnahmen werden dabei regelmäßig überprüft und an den aktuellen Stand der Technik angepasst.",
             contact: "Kontaktaufnahme",
-            contactText: "Wenn Sie Fragen oder Bedenken bezüglich dieser Datenschutzerklärung haben, können Sie uns jederzeit per E-Mail unter support@chattyevent.com kontaktieren.",
+            contactText: "Wenn Sie Fragen oder Bedenken bezüglich dieser Datenschutzerklärung haben, können Sie uns jederzeit per E-Mail unter support{'@'}chattyevent.com kontaktieren.",
             finalProvisions: "Schlussbestimmungen",
             finalProvisionsText: "Diese Datenschutzerklärung unterliegt dem deutschen Datenschutzrecht und der Datenschutzgrundverordnung (DSGVO). Sollten einzelne Bestimmungen dieser Datenschutzerklärung unwirksam sein oder werden, berührt dies nicht die Wirksamkeit der übrigen Bestimmungen. An die Stelle der unwirksamen Bestimmungen tritt eine wirksame Regelung, die dem Zweck der unwirksamen Bestimmung am nächsten kommt. Diese Datenschutzerklärung wurde zuletzt am 9.5.2023 aktualisiert."
           }
         },
-        termsOfUse: "Nutzungsbedingungen",
+        termsOfUse: {
+          title: "Nutzungsbedingungen",
+          data: {
+            generalText: "Willkommen bei ChattyEvent. Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, da sie Ihre Nutzung der App regeln und wichtige Informationen über Ihre Rechte und Pflichten enthalten.",
+            consentToTerms: "Zustimmung zu den Bedingungen",
+            consentText: "Durch die Nutzung unserer App erklären Sie sich mit diesen Nutzungsbedingungen und unserer Datenschutzrichtlinie einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, dürfen Sie die App nicht nutzen.",
+            accountsAndProfiles: "Konten und Profile",
+            accountsAndProfilesText: "Um die App nutzen zu können, müssen Sie möglicherweise ein Konto und ein Profil erstellen. Sie sind dafür verantwortlich, sicherzustellen, dass alle Informationen, die Sie bei der Erstellung Ihres Kontos und Profils bereitstellen, wahrheitsgemäß, genau und vollständig sind. Sie müssen auch sicherstellen, dass Sie mindestens 18 Jahre alt sind. Wir behalten uns das Recht vor, jederzeit und ohne Vorankündigung Konten oder Profile zu sperren oder zu löschen, die gegen diese Bedingungen verstoßen oder anderweitig unangemessenes Verhalten aufweisen.",
+            intellectualProperty: "Geistiges Eigentum",
+            intellectualPropertyText: "Alle Inhalte und Materialien, die in unserer App veröffentlicht werden, einschließlich Text, Bilder, Grafiken, Videos und Audio, sind durch geistige Eigentumsrechte geschützt. Sie dürfen diese Inhalte nur im Rahmen der Nutzung unserer App und gemäß diesen Bedingungen verwenden. Jede andere Verwendung, einschließlich der Vervielfältigung, Verbreitung oder Veröffentlichung von Inhalten, ist strengstens untersagt, es sei denn, Sie haben ausdrücklich die Erlaubnis des jeweiligen Rechteinhabers erhalten.",
+            useOfHashtags: "Verwendung von Hashtags, Marken und geistigem Eigentum",
+            useOfHashtagsText: "Die Verwendung von Hashtags, Marken oder anderem geistigen Eigentum Dritter in Verbindung mit Ihrer Nutzung unserer App muss den geltenden Gesetzen und Vorschriften entsprechen. Sie dürfen keine Hashtags, Marken oder geistiges Eigentum Dritter verwenden, um unsere App oder unsere Dienstleistungen zu bewerben oder zu vermarkten, ohne unsere ausdrückliche schriftliche Zustimmung.",
+            privacyPolicy: "Datenschutz",
+            privacyPolicyText: "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Daten gemäß unserer Datenschutzrichtlinie zu schützen. Durch die Nutzung der App stimmen Sie der Erfassung, Speicherung und Verarbeitung Ihrer persönlichen Daten gemäß unserer Datenschutzrichtlinie zu.",
+            prohibitedContentAndBehavior: "Verbotene Inhalte und Verhaltensweisen",
+            prohibitedContentAndBehaviorText: "Sie dürfen unsere App nicht nutzen, um Inhalte oder Verhaltensweisen zu veröffentlichen oder zu verbreiten, die rechtswidrig, missbräuchlich, belästigend, diskriminierend, bedrohlich, schädlich, diffamierend, obszön oder in anderer Weise unangemessen sind. Insbesondere dürfen Sie keine Inhalte oder Verhaltensweisen veröffentlichen oder verbreiten, die Mobbing, Hassrede, Rassismus, Extremismus oder Gewalt fördern. Zusätzlich dürfen Sie keine pornographischen Inhalte oder sexuell explizites Material veröffentlichen oder verbreiten. Wir behalten uns das Recht vor, Inhalte oder Verhaltensweisen, die gegen diese Bedingungen verstoßen, zu entfernen oder zu sperren, und Konten oder Profile von Nutzern zu sperren oder zu löschen, die gegen diese Bedingungen verstoßen.",
+            contentMonetization: "Monetarisierung von Inhalten",
+            contentMonetizationText: "Wenn Sie Inhalte erstellen und veröffentlichen, die monetarisiert werden können, sind Sie allein für die Einhaltung aller geltenden Gesetze und Vorschriften, einschließlich Steuergesetzen und Werberichtlinien, verantwortlich. Wir behalten uns das Recht vor, Ihre Inhalte zu entfernen oder zu sperren, wenn sie gegen unsere Richtlinien verstoßen.",
+            liabilityLimitations: "Haftungsbeschränkungen",
+            liabilityLimitationsText: "Wir übernehmen keine Haftung für Schäden, die durch Viren, Hacking oder andere Sicherheitsverletzungen verursacht werden. Wir übernehmen auch keine Haftung für Inhalte, die von unseren Nutzern erstellt oder veröffentlicht werden. Wir behalten uns jedoch das Recht vor, alle notwendigen Maßnahmen zu ergreifen, um die Sicherheit unserer App und unserer Nutzer zu gewährleisten.",
+            jurisdiction: "Gerichtsstand",
+            jurisdictionText: "Diese Bedingungen und Ihre Nutzung unserer App unterliegen den Gesetzen des Landes, in dem unser Unternehmen seinen Hauptsitz hat. Jegliche Rechtsstreitigkeiten, die sich aus diesen Bedingungen oder Ihrer Nutzung unserer App ergeben, unterliegen der ausschließlichen Gerichtsbarkeit der Gerichte dieses Landes.",
+            changesToTerms: "Änderungen dieser Bedingungen",
+            changesToTermsText: "Wir behalten uns das Recht vor, diese Bedingungen jederzeit ohne vorherige Ankündigung zu ändern. Ihre fortgesetzte Nutzung unserer App nach Änderungen dieser Bedingungen gilt als Zustimmung zu den aktualisierten Bedingungen.",
+            termination: "Beendigung",
+            terminationText: "Wir behalten uns das Recht vor, Ihre Nutzung unserer App jederzeit aus beliebigem Grund und ohne vorherige Ankündigung zu beenden. Im Falle einer solchen Beendigung bleiben diese Bedingungen in vollem Umfang wirksam und in Kraft.",
+            otherProvisions: "Sonstige Bestimmungen",
+            otherProvisionsText: "Sollte eine Bestimmung dieser Bedingungen für ungültig oder undurchsetzbar erklärt werden, bleibt die Gültigkeit und Durchsetzbarkeit der übrigen Bestimmungen unberührt. Unsere Unterlassung oder Verzögerung bei der Durchsetzung einer Bestimmung dieser Bedingungen stellt keinen Verzicht auf das Recht dar, diese Bestimmung später durchzusetzen.",
+            contactText: "Diese Bedingungen stellen die vollständige und endgültige Vereinbarung zwischen Ihnen und uns in Bezug auf Ihre Nutzung unserer App dar und ersetzen alle vorherigen oder gleichzeitigen Vereinbarungen, Verhandlungen und Diskussionen zwischen uns. Wenn Sie Fragen oder Bedenken zu diesen Bedingungen haben oder uns kontaktieren möchten, senden Sie uns bitte eine E-Mail an support@chattyevent.com. Vielen Dank für Ihre Nutzung unserer App!",
+          },
+        },
         imprint: {
           title: "Impressum",
           data: {
-            imprintDescription: 'Impressum gemäß § 5 TMG:',
-            name: 'Name: Marlon Wißkirchen',
-            city: 'Stadt: Sinzig 53489',
-            address: 'Adresse: Im Rossbüsch 13',
-            country: 'Land: Deutschland',
-            number: 'Nummer: +4917672996744',
-            email: 'E-Mail: support@chattyevent.com',
-            website: 'Website: chattyevent.com',
+            imprintDescription: "Impressum gemäß § 5 TMG:",
+            name: "Name: Marlon Wißkirchen",
+            city: "Stadt: Sinzig 53489",
+            address: "Adresse: Im Rossbüsch 13",
+            country: "Land: Deutschland",
+            number: "Nummer: +4917672996744",
+            email: "E-Mail: support{'@'}chattyevent.com",
+            website: "Website: chattyevent.com",
             disclaimer: {
-              title: 'Haftungshinweis:',
+              title: "Haftungshinweis:",
               text:
-                'Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Der Inhalt der verlinkten Seiten liegt in der alleinigen Verantwortung ihrer Betreiber.',
+                "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Der Inhalt der verlinkten Seiten liegt in der alleinigen Verantwortung ihrer Betreiber.",
             },
           }
         },
@@ -187,7 +235,20 @@ export default defineI18nConfig(() => ({
             usersText: "Benutzerdaten speichern die folgenden Daten:",
           }
         },
-        rightOnDeletion: "Recht auf Löschung"
+        rightOnDeletion: {
+          title: "Recht auf Löschung",
+          data: {
+            general: "Allgemeines",
+            generalText: "Auf dieser Seite erklären wir Ihnen, wie Sie alle Ihre Daten dauerhaft löschen können.",
+            instructions: "Anleitung",
+            instructionsList: {
+              0: "Öffnen Sie die ChattyEvent App",
+              1: "Navigieren Sie zur Einstellungsseite",
+              2: 'Gehen Sie zu "Info & Datenschutz" und wählen Sie "Recht auf Löschung"',
+              3: 'Klicken Sie auf "Daten löschen" und bestätigen Sie, indem Sie "Ja" klicken',
+            },
+          },
+        },        
       },
       blog: {
         title: "Bisher kein Inhalt"
@@ -215,7 +276,7 @@ export default defineI18nConfig(() => ({
         faq: "Veelgestelde vragen"
       },
       index: {
-        title: 'Plan eenvoudig je evenementen en feesten en chat met je vrienden met ChattyEvent!',
+        title: "Plan eenvoudig je evenementen en feesten en chat met je vrienden met ChattyEvent!",
         description: "ChattyEvent is de ultieme oplossing voor het plannen van je feesten en evenementen! Onze innovatieve app draait om groepsinteractie en maakt het gemakkelijk om te communiceren met je vrienden, familie of collega's. Of je nu een episch feest organiseert of gewoon in nauwer contact wilt blijven, ChattyEvent is de ideale metgezel om al je contacten op één centrale plek samen te brengen."
       },
       datasecurity: {
@@ -226,7 +287,7 @@ export default defineI18nConfig(() => ({
             generalText: "Op deze pagina verstrekken we u alle gegevens die we verzamelen. De verwerking van de gegevens wordt beschreven in ons privacybeleid.",
             responsibleParty: "Verantwoordelijke partij",
             responsiblePartyTitle: "Verantwoordelijke partij volgens de AVG:",
-            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support@chattyevent.com",
+            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support{'@'}chattyevent.com",
             personalDataCollection: "Verzameling van persoonlijke gegevens",
             personalDataCollectionText: "Deze gegevens worden uitsluitend verzameld en gebruikt voor de werking van de app. Ze worden niet aan derden verstrekt, tenzij de wet dit vereist of noodzakelijk is voor de uitvoering van het contract.",
             dataRetention: "De gegevens worden alleen bewaard zolang als nodig is voor de werking van de app. Na deze periode worden ze verwijderd. U kunt ook een exacte lijst van alle opgeslagen gegevens vinden op de pagina Recht op toegang.",
@@ -241,7 +302,7 @@ export default defineI18nConfig(() => ({
             dataSecurity: "Gegevensbeveiliging",
             dataSecurityText: "We gebruiken technische en organisatorische maatregelen om uw persoonlijke gegevens te beschermen tegen verlies, vernietiging, manipulatie en ongeautoriseerde toegang. Onze beveiligingsmaatregelen worden regelmatig beoordeeld en aangepast aan de huidige stand van de techniek.",
             contact: "Contact",
-            contactText: "Als u vragen of zorgen heeft over dit privacybeleid, kunt u te allen tijde contact met ons opnemen via het e-mailadres support@chattyevent.com.",
+            contactText: "Als u vragen of zorgen heeft over dit privacybeleid, kunt u te allen tijde contact met ons opnemen via het e-mailadres support{'@'}chattyevent.com.",
             finalProvisions: "Slotbepalingen",
             finalProvisionsText: "Dit privacybeleid valt onder de Duitse wetgeving inzake gegevensbescherming en de Algemene verordening gegevensbescherming (AVG). Indien een bepaling van dit privacybeleid ongeldig is of wordt, heeft dit geen invloed op de geldigheid van de overige bepalingen. In plaats van de ongeldige bepaling zal een geldige regeling van toepassing zijn die het doel van de ongeldige bepaling het dichtst benadert. Dit privacybeleid is voor het laatst bijgewerkt op 9 mei 2023."
           }
@@ -250,18 +311,18 @@ export default defineI18nConfig(() => ({
         imprint: {
           title: "Afdruk",
           data: {
-            imprintDescription: 'Afdruk conform § 5 TMG:',
-            name: 'Naam: Marlon Wißkirchen',
-            city: 'Stad: Sinzig 53489',
-            address: 'Adres: Im Rossbüsch 13',
-            country: 'Land: Duitsland',
-            number: 'Nummer: +4917672996744',
-            email: 'E-mail: support@chattyevent.com',
-            website: 'Website: chattyevent.com',
+            imprintDescription: "Afdruk conform § 5 TMG:",
+            name: "Naam: Marlon Wißkirchen",
+            city: "Stad: Sinzig 53489",
+            address: "Adres: Im Rossbüsch 13",
+            country: "Land: Duitsland",
+            number: "Nummer: +4917672996744",
+            email: "E-mail: support{'@'}chattyevent.com",
+            website: "Website: chattyevent.com",
             disclaimer: {
-              title: 'Disclaimer:',
+              title: "Disclaimer:",
               text:
-                'Ondanks zorgvuldige inhoudelijke controle aanvaarden wij geen aansprakelijkheid voor de inhoud van externe links. De inhoud van de gekoppelde pagina\'s is uitsluitend de verantwoordelijkheid van de exploitanten ervan.',
+                "Ondanks zorgvuldige inhoudelijke controle aanvaarden wij geen aansprakelijkheid voor de inhoud van externe links. De inhoud van de gekoppelde pagina\'s is uitsluitend de verantwoordelijkheid van de exploitanten ervan.",
             },
           }
         },
@@ -290,7 +351,20 @@ export default defineI18nConfig(() => ({
             usersText: "Gebruikersgegevens slaan de volgende gegevens op:",
           }
         },
-        rightOnDeletion: "Recht op verwijdering"
+        rightOnDeletion: {
+          title: "Recht op verwijdering",
+          data: {
+            general: "Algemeen",
+            generalText: "Op deze pagina leggen we uit hoe u al uw gegevens permanent kunt verwijderen.",
+            instructions: "Instructies",
+            instructionsList: {
+              0: "Open de ChattyEvent-app",
+              1: "Ga naar de instellingenpagina",
+              2: 'Ga naar "Informatie en gegevensprivacy" en selecteer "Recht op verwijdering"',
+              3: 'Klik op "Gegevens verwijderen" en bevestig door op "Ja" te klikken',
+            },
+          },
+        },
       },
       blog: {
         title: "Nog geen inhoud"
@@ -318,7 +392,7 @@ export default defineI18nConfig(() => ({
         faq: "Preguntas frecuentes"
       },
       index: {
-        title: '¡Planifica tus eventos y fiestas fácilmente y habla con tus amigos con ChattyEvent!',
+        title: "¡Planifica tus eventos y fiestas fácilmente y habla con tus amigos con ChattyEvent!",
         description: "¡ChattyEvent es la solución definitiva para la planificación de fiestas y eventos! Nuestra innovadora aplicación se trata de la interacción en grupo y te facilita la comunicación con tus amigos, familiares o colegas. Ya sea que estés organizando una fiesta épica o simplemente quieras mantener un contacto más cercano, ChattyEvent es el compañero ideal para reunir todos tus contactos en un solo lugar central."
       },
       datasecurity: {
@@ -329,7 +403,7 @@ export default defineI18nConfig(() => ({
             generalText: "En esta página, le proporcionamos todos los datos que recopilamos. El procesamiento de los datos se describe en nuestra política de privacidad.",
             responsibleParty: "Entidad responsable",
             responsiblePartyTitle: "Entidad responsable según el RGPD:",
-            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support@chattyevent.com",
+            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support{'@'}chattyevent.com",
             personalDataCollection: "Recopilación de datos personales",
             personalDataCollectionText: "Estos datos se recopilan y utilizan exclusivamente para el funcionamiento de la aplicación. No se divulgarán a terceros, a menos que la ley lo exija o sea necesario para el cumplimiento del contrato.",
             dataRetention: "Los datos se almacenarán solo durante el tiempo que sea necesario para el funcionamiento de la aplicación. Después de este período, se eliminarán. También puede encontrar una lista exacta de todos los datos almacenados en la página Derecho de acceso.",
@@ -344,7 +418,7 @@ export default defineI18nConfig(() => ({
             dataSecurity: "Seguridad de datos",
             dataSecurityText: "Utilizamos medidas técnicas y organizativas para proteger sus datos personales contra la pérdida, destrucción, manipulación y acceso no autorizado. Nuestras medidas de seguridad se revisan periódicamente y se adaptan al estado actual de la tecnología.",
             contact: "Contacto",
-            contactText: "Si tiene preguntas o inquietudes sobre esta política de privacidad, puede ponerse en contacto con nosotros en cualquier momento por correo electrónico a support@chattyevent.com.",
+            contactText: "Si tiene preguntas o inquietudes sobre esta política de privacidad, puede ponerse en contacto con nosotros en cualquier momento por correo electrónico a support{'@'}chattyevent.com.",
             finalProvisions: "Disposiciones finales",
             finalProvisionsText: "Esta política de privacidad está sujeta a la legislación alemana de protección de datos y al Reglamento General de Protección de Datos (RGPD). Si alguna disposición de esta política de privacidad es o llega a ser inválida, esto no afectará la validez de las demás disposiciones. En lugar de la disposición inválida, se aplicará una disposición válida que se acerque más al propósito de la disposición inválida. Esta política de privacidad se actualizó por última vez el 9 de mayo de 2023."
           }
@@ -353,18 +427,18 @@ export default defineI18nConfig(() => ({
         imprint: {
           title: "Impresión",
           data: {
-            imprintDescription: 'Impresión de acuerdo con el § 5 TMG:',
-            name: 'Nombre: Marlon Wißkirchen',
-            city: 'Ciudad: Sinzig 53489',
-            address: 'Dirección: Im Rossbüsch 13',
-            country: 'País: Alemania',
-            number: 'Número: +4917672996744',
-            email: 'Correo electrónico: support@chattyevent.com',
-            website: 'Sitio web: chattyevent.com',
+            imprintDescription: "Impresión de acuerdo con el § 5 TMG:",
+            name: "Nombre: Marlon Wißkirchen",
+            city: "Ciudad: Sinzig 53489",
+            address: "Dirección: Im Rossbüsch 13",
+            country: "País: Alemania",
+            number: "Número: +4917672996744",
+            email: "Correo electrónico: support{'@'}chattyevent.com",
+            website: "Sitio web: chattyevent.com",
             disclaimer: {
-              title: 'Aviso legal:',
+              title: "Aviso legal:",
               text:
-                'A pesar de un control de contenidos cuidadoso, no asumimos ninguna responsabilidad por el contenido de los enlaces externos. El contenido de las páginas vinculadas es responsabilidad exclusiva de sus operadores.',
+                "A pesar de un control de contenidos cuidadoso, no asumimos ninguna responsabilidad por el contenido de los enlaces externos. El contenido de las páginas vinculadas es responsabilidad exclusiva de sus operadores.",
             },
           }
         },
@@ -393,7 +467,20 @@ export default defineI18nConfig(() => ({
             usersText: "Los datos de usuario almacenan la siguiente información:",
           }
         },
-        rightOnDeletion: "Derecho de eliminación"
+        rightOnDeletion: {
+          title: "Droit à la suppression",
+          data: {
+            general: "Général",
+            generalText: "Sur cette page, nous vous expliquons comment supprimer définitivement toutes vos données.",
+            instructions: "Instructions",
+            instructionsList: {
+              0: "Ouvrez l'application ChattyEvent",
+              1: "Accédez à la page des paramètres",
+              2: 'Accédez à "Info et protection des données" et sélectionnez "Droit à la suppression"',
+              3: 'Cliquez sur "Supprimer les données" et confirmez en cliquant sur "Oui"',
+            },
+          },
+        },        
       },
       blog: {
         title: "Sin contenido por el momento"
@@ -421,7 +508,7 @@ export default defineI18nConfig(() => ({
         faq: "Perguntas frequentes"
       },
       index: {
-        title: 'Planeie facilmente os seus eventos, festas e converse com os seus amigos com o ChattyEvent!',
+        title: "Planeie facilmente os seus eventos, festas e converse com os seus amigos com o ChattyEvent!",
         description: "O ChattyEvent é a solução definitiva para o planeamento das suas festas e eventos! A nossa inovadora aplicação gira em torno da interação em grupo e torna fácil a comunicação com os seus amigos, família ou colegas. Quer esteja a organizar uma festa épica ou apenas queira manter um contacto mais próximo, o ChattyEvent é o companheiro ideal para reunir todos os seus contactos num único local central."
       },
       datasecurity: {
@@ -432,7 +519,7 @@ export default defineI18nConfig(() => ({
             generalText: "Nesta página, fornecemos todos os dados que coletamos. O processamento dos dados está descrito na nossa política de privacidade.",
             responsibleParty: "Entidade responsável",
             responsiblePartyTitle: "Entidade responsável nos termos do RGPD:",
-            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support@chattyevent.com",
+            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support{'@'}chattyevent.com",
             personalDataCollection: "Coleta de dados pessoais",
             personalDataCollectionText: "Esses dados são coletados e usados exclusivamente para o funcionamento do aplicativo. Eles não serão divulgados a terceiros, a menos que a lei o exija ou seja necessário para o cumprimento do contrato.",
             dataRetention: "Os dados serão armazenados apenas pelo tempo necessário para o funcionamento do aplicativo. Após esse período, eles serão excluídos. Você também pode encontrar uma lista exata de todos os dados armazenados na página Direito de Acesso.",
@@ -447,7 +534,7 @@ export default defineI18nConfig(() => ({
             dataSecurity: "Segurança dos dados",
             dataSecurityText: "Utilizamos medidas técnicas e organizacionais para proteger seus dados pessoais contra perda, destruição, manipulação e acesso não autorizado. Nossas medidas de segurança são revisadas regularmente e adaptadas ao estado atual da tecnologia.",
             contact: "Contato",
-            contactText: "Se você tiver alguma dúvida ou preocupação sobre esta política de privacidade, pode entrar em contato conosco a qualquer momento pelo e-mail support@chattyevent.com.",
+            contactText: "Se você tiver alguma dúvida ou preocupação sobre esta política de privacidade, pode entrar em contato conosco a qualquer momento pelo e-mail support{'@'}chattyevent.com.",
             finalProvisions: "Disposições Finais",
             finalProvisionsText: "Esta política de privacidade está sujeita à lei alemã de proteção de dados e ao Regulamento Geral de Proteção de Dados (RGPD). Se alguma disposição desta política de privacidade for ou se tornar inválida, isso não afetará a validade das demais disposições. Em vez da disposição inválida, será aplicada uma disposição válida que mais se aproxime do objetivo da disposição inválida. Esta política de privacidade foi atualizada pela última vez em 9 de maio de 2023."
           }
@@ -456,18 +543,18 @@ export default defineI18nConfig(() => ({
         imprint: {
           title: "Impressão",
           data: {
-            imprintDescription: 'Impressão de acordo com o § 5 TMG:',
-            name: 'Nome: Marlon Wißkirchen',
-            city: 'Cidade: Sinzig 53489',
-            address: 'Endereço: Im Rossbüsch 13',
-            country: 'País: Alemanha',
-            number: 'Número: +4917672996744',
-            email: 'E-mail: support@chattyevent.com',
-            website: 'Website: chattyevent.com',
+            imprintDescription: "Impressão de acordo com o § 5 TMG:",
+            name: "Nome: Marlon Wißkirchen",
+            city: "Cidade: Sinzig 53489",
+            address: "Endereço: Im Rossbüsch 13",
+            country: "País: Alemanha",
+            number: "Número: +4917672996744",
+            email: "E-mail: support{'@'}chattyevent.com",
+            website: "Website: chattyevent.com",
             disclaimer: {
-              title: 'Aviso Legal:',
+              title: "Aviso Legal:",
               text:
-                'Apesar do controle cuidadoso do conteúdo, declinamos toda e qualquer responsabilidade pelo conteúdo de links externos. O conteúdo das páginas vinculadas é de responsabilidade exclusiva de seus operadores.',
+                "Apesar do controle cuidadoso do conteúdo, declinamos toda e qualquer responsabilidade pelo conteúdo de links externos. O conteúdo das páginas vinculadas é de responsabilidade exclusiva de seus operadores.",
             },
           }
         },
@@ -496,7 +583,20 @@ export default defineI18nConfig(() => ({
             usersText: "Os dados de usuário armazenam os seguintes dados:",
           }
         },
-        rightOnDeletion: "Direito de Eliminação"
+        rightOnDeletion: {
+          title: "Direito de exclusão",
+          data: {
+            general: "Geral",
+            generalText: "Nesta página, explicamos como você pode excluir permanentemente todos os seus dados.",
+            instructions: "Instruções",
+            instructionsList: {
+              0: "Abra o aplicativo ChattyEvent",
+              1: "Acesse a página de configurações",
+              2: 'Vá para "Informações e privacidade de dados" e selecione "Direito de exclusão"',
+              3: 'Clique em "Excluir dados" e confirme clicando em "Sim"',
+            },
+          },
+        },        
       },
       blog: {
         title: "Ainda sem conteúdo"
@@ -524,7 +624,7 @@ export default defineI18nConfig(() => ({
         faq: "Domande frequenti"
       },
       index: {
-        title: 'Pianifica facilmente i tuoi eventi e feste e chatta con i tuoi amici con ChattyEvent!',
+        title: "Pianifica facilmente i tuoi eventi e feste e chatta con i tuoi amici con ChattyEvent!",
         description: "ChattyEvent è la soluzione definitiva per la pianificazione delle tue feste ed eventi! La nostra innovativa app è incentrata sull'interazione di gruppo e facilita la comunicazione con i tuoi amici, familiari o colleghi. Che tu stia organizzando una festa epica o desideri mantenere un contatto più stretto, ChattyEvent è il compagno ideale per riunire tutti i tuoi contatti in un unico luogo centrale."
       },
       datasecurity: {
@@ -535,7 +635,7 @@ export default defineI18nConfig(() => ({
             generalText: "In questa pagina forniamo tutti i dati che raccogliamo. Il trattamento dei dati è descritto nella nostra informativa sulla privacy.",
             responsibleParty: "Responsabile del trattamento",
             responsiblePartyTitle: "Responsabile del trattamento ai sensi del GDPR:",
-            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support@chattyevent.com",
+            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support{'@'}chattyevent.com",
             personalDataCollection: "Raccolta di dati personali",
             personalDataCollectionText: "Questi dati vengono raccolti e utilizzati esclusivamente per il funzionamento dell'app. Non saranno divulgati a terzi, a meno che la legge lo richieda o sia necessario per l'adempimento del contratto.",
             dataRetention: "I dati verranno conservati solo per il tempo necessario al funzionamento dell'app. Dopo questo periodo, verranno eliminati. È possibile trovare un elenco preciso di tutti i dati memorizzati nella pagina Diritti dell'interessato.",
@@ -550,7 +650,7 @@ export default defineI18nConfig(() => ({
             dataSecurity: "Sicurezza dei dati",
             dataSecurityText: "Utilizziamo misure tecniche e organizzative per proteggere i vostri dati personali da perdite, distruzioni, manipolazioni e accessi non autorizzati. Le nostre misure di sicurezza sono regolarmente riviste ed adattate allo stato attuale della tecnologia.",
             contact: "Contatto",
-            contactText: "Se avete domande o preoccupazioni riguardo a questa informativa sulla privacy, potete contattarci in qualsiasi momento all'indirizzo e-mail support@chattyevent.com.",
+            contactText: "Se avete domande o preoccupazioni riguardo a questa informativa sulla privacy, potete contattarci in qualsiasi momento all'indirizzo e-mail support{'@'}chattyevent.com.",
             finalProvisions: "Disposizioni finali",
             finalProvisionsText: "Questa informativa sulla privacy è soggetta alla legge tedesca sulla protezione dei dati e al Regolamento generale sulla protezione dei dati (GDPR). Se una disposizione di questa informativa sulla privacy è o diventa invalida, ciò non influisce sulla validità delle altre disposizioni. In caso di invalidità di una disposizione, sarà applicata una disposizione valida che si avvicini il più possibile allo scopo della disposizione invalida. Questa informativa sulla privacy è stata aggiornata per l'ultima volta il 9 maggio 2023."
           }
@@ -559,18 +659,18 @@ export default defineI18nConfig(() => ({
         imprint: {
           title: "Impressum",
           data: {
-            imprintDescription: 'Impressum secondo il § 5 TMG:',
-            name: 'Nome: Marlon Wißkirchen',
-            city: 'Città: Sinzig 53489',
-            address: 'Indirizzo: Im Rossbüsch 13',
-            country: 'Paese: Germania',
-            number: 'Numero: +4917672996744',
-            email: 'E-mail: support@chattyevent.com',
-            website: 'Sito web: chattyevent.com',
+            imprintDescription: "Impressum secondo il § 5 TMG:",
+            name: "Nome: Marlon Wißkirchen",
+            city: "Città: Sinzig 53489",
+            address: "Indirizzo: Im Rossbüsch 13",
+            country: "Paese: Germania",
+            number: "Numero: +4917672996744",
+            email: "E-mail: support{'@'}chattyevent.com",
+            website: "Sito web: chattyevent.com",
             disclaimer: {
-              title: 'Disclaimer:',
+              title: "Disclaimer:",
               text:
-                'Nonostante un controllo accurato dei contenuti, decliniamo ogni responsabilità per i contenuti dei link esterni. Il contenuto delle pagine collegate è di esclusiva responsabilità dei loro gestori.',
+                "Nonostante un controllo accurato dei contenuti, decliniamo ogni responsabilità per i contenuti dei link esterni. Il contenuto delle pagine collegate è di esclusiva responsabilità dei loro gestori.",
             },
           }
         },
@@ -599,7 +699,20 @@ export default defineI18nConfig(() => ({
             usersText: "I dati degli utenti memorizzano i seguenti dati:",
           }
         },
-        rightOnDeletion: "Diritto di cancellazione"
+        rightOnDeletion: {
+          title: "Diritto di cancellazione",
+          data: {
+            general: "Generale",
+            generalText: "In questa pagina, spieghiamo come è possibile eliminare definitivamente tutti i propri dati.",
+            instructions: "Istruzioni",
+            instructionsList: {
+              0: "Apri l'app ChattyEvent",
+              1: "Vai alla pagina delle impostazioni",
+              2: 'Vai su "Informazioni e privacy dei dati" e seleziona "Diritto di cancellazione"',
+              3: 'Fai clic su "Elimina dati" e conferma facendo clic su "Sì"',
+            },
+          },
+        },
       },
       blog: {
         title: "Nessun contenuto finora"
@@ -627,7 +740,7 @@ export default defineI18nConfig(() => ({
         faq: "Foire aux questions"
       },
       index: {
-        title: 'Planifiez vos événements et fêtes facilement et discutez avec vos amis grâce à ChattyEvent !',
+        title: "Planifiez vos événements et fêtes facilement et discutez avec vos amis grâce à ChattyEvent !",
         description: "ChattyEvent est la solution ultime pour la planification de vos fêtes et événements ! Notre application innovante repose sur l'interaction de groupe et facilite la communication avec vos amis, votre famille ou vos collègues. Que vous organisiez une fête épique ou que vous souhaitiez simplement rester en contact plus étroit, ChattyEvent est le compagnon idéal pour réunir tous vos contacts en un seul endroit central."
       },
       datasecurity: {
@@ -638,7 +751,7 @@ export default defineI18nConfig(() => ({
             generalText: "Sur cette page, nous vous fournissons toutes les données que nous collectons. Le traitement des données est décrit dans notre politique de confidentialité.",
             responsibleParty: "Entité responsable",
             responsiblePartyTitle: "Entité responsable conformément au RGPD :",
-            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support@chattyevent.com",
+            responsiblePartyInfo: "Marlon Wißkirchen, Eifelstraße 15, 53489 Sinzig, support{'@'}chattyevent.com",
             personalDataCollection: "Collecte de données personnelles",
             personalDataCollectionText: "Ces données sont collectées et utilisées exclusivement pour le fonctionnement de l'application. Elles ne seront pas divulguées à des tiers, sauf si la loi l'exige ou si cela est nécessaire à l'exécution du contrat.",
             dataRetention: "Les données ne seront stockées que le temps nécessaire au fonctionnement de l'application. Après cette période, elles seront supprimées. Vous pouvez également trouver une liste précise de toutes les données stockées sur la page Droit d'accès.",
@@ -653,7 +766,7 @@ export default defineI18nConfig(() => ({
             dataSecurity: "Sécurité des données",
             dataSecurityText: "Nous utilisons des mesures techniques et organisationnelles pour protéger vos données personnelles contre la perte, la destruction, la manipulation et l'accès non autorisé. Nos mesures de sécurité sont régulièrement examinées et adaptées à l'état actuel de la technologie.",
             contact: "Contact",
-            contactText: "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, vous pouvez nous contacter à tout moment par e-mail à l'adresse support@chattyevent.com.",
+            contactText: "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, vous pouvez nous contacter à tout moment par e-mail à l'adresse support{'@'}chattyevent.com.",
             finalProvisions: "Dispositions finales",
             finalProvisionsText: "Cette politique de confidentialité est soumise au droit allemand de la protection des données et au règlement général sur la protection des données (RGPD). Si certaines dispositions de cette politique de confidentialité sont ou deviennent invalides, cela n'affecte pas la validité des autres dispositions. En cas d'invalidité d'une disposition, une disposition valide qui se rapproche le plus de l'objectif de la disposition invalide sera appliquée. Cette politique de confidentialité a été mise à jour pour la dernière fois le 9 mai 2023."
           }
@@ -662,18 +775,18 @@ export default defineI18nConfig(() => ({
         imprint: {
           title: "Mention légale",
           data: {
-            imprintDescription: 'Mention légale conformément à l\'article 5 TMG :',
-            name: 'Nom : Marlon Wißkirchen',
-            city: 'Ville : Sinzig 53489',
-            address: 'Adresse : Im Rossbüsch 13',
-            country: 'Pays : Allemagne',
-            number: 'Numéro : +4917672996744',
-            email: 'E-mail : support@chattyevent.com',
-            website: 'Site web : chattyevent.com',
+            imprintDescription: "Mention légale conformément à l\'article 5 TMG :",
+            name: "Nom : Marlon Wißkirchen",
+            city: "Ville : Sinzig 53489",
+            address: "Adresse : Im Rossbüsch 13",
+            country: "Pays : Allemagne",
+            number: "Numéro : +4917672996744",
+            email: "E-mail : support{'@'}chattyevent.com",
+            website: "Site web : chattyevent.com",
             disclaimer: {
-              title: 'Avis de non-responsabilité :',
+              title: "Avis de non-responsabilité :",
               text:
-                'Malgré un contrôle attentif du contenu, nous déclinons toute responsabilité quant au contenu des liens externes. Le contenu des pages liées relève de la seule responsabilité de leurs exploitants.',
+                "Malgré un contrôle attentif du contenu, nous déclinons toute responsabilité quant au contenu des liens externes. Le contenu des pages liées relève de la seule responsabilité de leurs exploitants.",
             },
           }
         },
@@ -702,7 +815,20 @@ export default defineI18nConfig(() => ({
             usersText: "Les données utilisateur stockent les données suivantes :",
           }
         },
-        rightOnDeletion: "Droit de suppression"
+        rightOnDeletion: {
+          title: "Droit à la suppression",
+          data: {
+            general: "Général",
+            generalText: "Sur cette page, nous vous expliquons comment supprimer définitivement toutes vos données.",
+            instructions: "Instructions",
+            instructionsList: {
+              0: "Ouvrez l'application ChattyEvent",
+              1: "Accédez à la page des paramètres",
+              2: 'Accédez à "Info et protection des données" et sélectionnez "Droit à la suppression"',
+              3: 'Cliquez sur "Supprimer les données" et confirmez en cliquant sur "Oui"',
+            },
+          },
+        },        
       },
       blog: {
         title: "Aucun contenu pour le moment"

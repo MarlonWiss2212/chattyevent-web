@@ -1,17 +1,23 @@
+<script setup lang="ts">
+const { t } = useI18n()
+
+const t1 = t('datasecurity.rightOnDeletion.data.instructionsList')
+
+</script>
 <template>
   <div class="w-full pb-10 overflow-y-auto">
-    <h1 class="text-3xl font-bold">Recht auf Löschung ChattyEvent</h1>
+    <h1 class="text-3xl font-bold">ChattyEvent {{ t('datasecurity.rightOnDeletion.title') }}</h1>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">1. Allgemeines</h2>
-      <p class="mt-2">Auf dieser Seite wird ihnen erklärt wie sie alle ihre Daten dauerhaft Löschen können</p>
+      <h3 class="font-bold text-xl">{{ t('datasecurity.rightOnDeletion.data.general') }}</h3>
+      <p class="mt-2">{{ t('datasecurity.rightOnDeletion.data.generalText') }}</p>
     </div>
     <div class="mt-6">
-      <h2 class="font-bold text-xl">2. Anleitung</h2>
+      <h3 class="font-bold text-xl">{{ t('datasecurity.rightOnDeletion.data.instructions') }}</h3>
       <ul class="list-decimal list-inside mt-2">
-        <li>Öffnen sie die ChattyEvent App</li>
-        <li>Navigieren sie zur Einstellungsseite</li>
-        <li>Navigieren sie unter "Info & Datenschutz" zu "Recht auf Löschung"</li>
-        <li>Klicken sie auf "Daten Löschen" und bestätigen sie, indem sie auf "Ja" Klicken</li>
+        <li>{{ $t('datasecurity.rightOnDeletion.data.instructionsList.0') }}</li>
+        <li>{{ $t('datasecurity.rightOnDeletion.data.instructionsList.1') }}</li>
+        <li>{{ $t('datasecurity.rightOnDeletion.data.instructionsList.2') }}</li>
+        <li>{{ $t('datasecurity.rightOnDeletion.data.instructionsList.3') }}</li>
       </ul>
     </div>
   </div>
