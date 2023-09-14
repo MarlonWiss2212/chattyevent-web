@@ -3,8 +3,11 @@ const { t } = useI18n()
 </script>
 
 <template>
+  <head>
+    <title>ChattyEvent {{ t('datasecurity.termsOfUse.title') }}</title>
+  </head>
   <div class="w-full pb-10 overflow-y-auto">
-    <h1 class="text-3xl font-bold">ChattyEvent {{ t('datasecurity.termsOfUse.title') }}</h1>
+    <h1 class="text-3xl font-bold">ChattyEvent {{ t('datasecurity.termsOfUse') }}</h1>
     <p class="mt-6">{{ t('datasecurity.termsOfUse.data.generalText') }}</p>
     <div class="mt-6">
       <h3 class="font-bold text-xl">1. {{ t('datasecurity.termsOfUse.data.consentToTerms') }}</h3>

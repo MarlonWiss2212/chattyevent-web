@@ -1,10 +1,10 @@
 <script setup lang="ts">
 const { t } = useI18n()
-
-const t1 = t('datasecurity.rightOnDeletion.data.instructionsList')
-
 </script>
 <template>
+  <head>
+    <title>ChattyEvent {{ t('datasecurity.rightOnDeletion.title') }}</title>
+  </head>
   <div class="w-full pb-10 overflow-y-auto">
     <h1 class="text-3xl font-bold">ChattyEvent {{ t('datasecurity.rightOnDeletion.title') }}</h1>
     <div class="mt-6">
