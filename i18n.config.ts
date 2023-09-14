@@ -68,7 +68,7 @@ export default defineI18nConfig(() => ({
             terminationText: "We reserve the right to terminate your use of our app at any time and for any reason without prior notice. In the event of such termination, these terms will remain in full force.",
             otherProvisions: "Other Provisions",
             otherProvisionsText: "If any provision of these terms is declared invalid or unenforceable, the validity and enforceability of the remaining provisions shall not be affected. Our failure or delay in enforcing any provision of these terms does not constitute a waiver of the right to enforce that provision later.",
-            contactText: "These terms constitute the entire and final agreement between you and us regarding your use of our app and supersede all prior or contemporaneous agreements, negotiations, and discussions between us. If you have any questions or concerns about these terms or wish to contact us, please email us at support@chattyevent.com. Thank you for using our app!",
+            contactText: "These terms constitute the entire and final agreement between you and us regarding your use of our app and supersede all prior or contemporaneous agreements, negotiations, and discussions between us. If you have any questions or concerns about these terms or wish to contact us, please email us at support{'@'}chattyevent.com. Thank you for using our app!",
           },
         },        
         imprint: {
@@ -214,7 +214,7 @@ export default defineI18nConfig(() => ({
             terminationText: "Wir behalten uns das Recht vor, Ihre Nutzung unserer App jederzeit aus beliebigem Grund und ohne vorherige Ankündigung zu beenden. Im Falle einer solchen Beendigung bleiben diese Bedingungen in vollem Umfang wirksam und in Kraft.",
             otherProvisions: "Sonstige Bestimmungen",
             otherProvisionsText: "Sollte eine Bestimmung dieser Bedingungen für ungültig oder undurchsetzbar erklärt werden, bleibt die Gültigkeit und Durchsetzbarkeit der übrigen Bestimmungen unberührt. Unsere Unterlassung oder Verzögerung bei der Durchsetzung einer Bestimmung dieser Bedingungen stellt keinen Verzicht auf das Recht dar, diese Bestimmung später durchzusetzen.",
-            contactText: "Diese Bedingungen stellen die vollständige und endgültige Vereinbarung zwischen Ihnen und uns in Bezug auf Ihre Nutzung unserer App dar und ersetzen alle vorherigen oder gleichzeitigen Vereinbarungen, Verhandlungen und Diskussionen zwischen uns. Wenn Sie Fragen oder Bedenken zu diesen Bedingungen haben oder uns kontaktieren möchten, senden Sie uns bitte eine E-Mail an support@chattyevent.com. Vielen Dank für Ihre Nutzung unserer App!",
+            contactText: "Diese Bedingungen stellen die vollständige und endgültige Vereinbarung zwischen Ihnen und uns in Bezug auf Ihre Nutzung unserer App dar und ersetzen alle vorherigen oder gleichzeitigen Vereinbarungen, Verhandlungen und Diskussionen zwischen uns. Wenn Sie Fragen oder Bedenken zu diesen Bedingungen haben oder uns kontaktieren möchten, senden Sie uns bitte eine E-Mail an support{'@'}chattyevent.com. Vielen Dank für Ihre Nutzung unserer App!",
           },
         },
         imprint: {
@@ -360,7 +360,7 @@ export default defineI18nConfig(() => ({
             terminationText: "We behouden ons het recht voor om uw gebruik van onze app op elk moment en om welke reden dan ook en zonder voorafgaande kennisgeving te beëindigen. In geval van beëindiging blijven deze voorwaarden volledig van kracht.",
             otherProvisions: "Overige bepalingen",
             otherProvisionsText: "Indien een bepaling van deze voorwaarden ongeldig of niet-afdwingbaar wordt verklaard, blijven de geldigheid en afdwingbaarheid van de overige bepalingen onverminderd van kracht. Ons nalaten of vertragen om een bepaling van deze voorwaarden af te dwingen, vormt geen afstand van het recht om die bepaling later af te dwingen.",
-            contactText: "Deze voorwaarden vormen de volledige en definitieve overeenkomst tussen u en ons met betrekking tot uw gebruik van onze app en vervangen alle eerdere of gelijktijdige overeenkomsten, onderhandelingen en discussies tussen ons. Als u vragen of zorgen heeft over deze voorwaarden of contact met ons wilt opnemen, stuur ons dan een e-mail naar support@chattyevent.com. Bedankt voor het gebruik van onze app!",
+            contactText: "Deze voorwaarden vormen de volledige en definitieve overeenkomst tussen u en ons met betrekking tot uw gebruik van onze app en vervangen alle eerdere of gelijktijdige overeenkomsten, onderhandelingen en discussies tussen ons. Als u vragen of zorgen heeft over deze voorwaarden of contact met ons wilt opnemen, stuur ons dan een e-mail naar support{'@'}chattyevent.com. Bedankt voor het gebruik van onze app!",
           },
         },
         imprint: {
@@ -506,7 +506,7 @@ export default defineI18nConfig(() => ({
             terminationText: "Nos reservamos el derecho de dar por terminado su uso de nuestra aplicación en cualquier momento y por cualquier motivo, sin previo aviso. En caso de terminación, estos términos seguirán vigentes en su totalidad.",
             otherProvisions: "Disposiciones adicionales",
             otherProvisionsText: "Si alguna disposición de estos términos se considera inválida o inaplicable, la validez y aplicabilidad de las demás disposiciones permanecerán vigentes. Nuestra omisión o demora en hacer cumplir una disposición de estos términos no constituye una renuncia al derecho de aplicar esa disposición posteriormente.",
-            contactText: "Estos términos constituyen el acuerdo completo y definitivo entre usted y nosotros con respecto a su uso de nuestra aplicación y sustituyen todos los acuerdos, negociaciones y discusiones anteriores o simultáneos entre nosotros. Si tiene preguntas o inquietudes acerca de estos términos o desea ponerse en contacto con nosotros, envíenos un correo electrónico a support@chattyevent.com. ¡Gracias por utilizar nuestra aplicación!",
+            contactText: "Estos términos constituyen el acuerdo completo y definitivo entre usted y nosotros con respecto a su uso de nuestra aplicación y sustituyen todos los acuerdos, negociaciones y discusiones anteriores o simultáneos entre nosotros. Si tiene preguntas o inquietudes acerca de estos términos o desea ponerse en contacto con nosotros, envíenos un correo electrónico a support{'@'}chattyevent.com. ¡Gracias por utilizar nuestra aplicación!",
           },
         },        
         imprint: {
@@ -652,7 +652,7 @@ export default defineI18nConfig(() => ({
             terminationText: "Reservamo-nos o direito de rescindir a sua utilização da nossa aplicação a qualquer momento e por qualquer motivo, sem aviso prévio. Em caso de tal rescisão, estes termos permanecerão em pleno vigor.",
             otherProvisions: "Outras Disposições",
             otherProvisionsText: "Se alguma disposição destes termos for declarada inválida ou inexequível, a validade e a aplicabilidade das restantes disposições não serão afetadas. A nossa omissão ou atraso na aplicação de qualquer disposição destes termos não constitui renúncia ao direito de aplicar essa disposição posteriormente.",
-            contactText: "Estes termos constituem o acordo completo e definitivo entre si e nós em relação à sua utilização da nossa aplicação e substituem todos os acordos, negociações e discussões anteriores ou contemporâneas entre nós. Se tiver alguma dúvida ou preocupação sobre estes termos ou desejar contactar-nos, envie-nos um e-mail para support@chattyevent.com. Obrigado por utilizar a nossa aplicação!",
+            contactText: "Estes termos constituem o acordo completo e definitivo entre si e nós em relação à sua utilização da nossa aplicação e substituem todos os acordos, negociações e discussões anteriores ou contemporâneas entre nós. Se tiver alguma dúvida ou preocupação sobre estes termos ou desejar contactar-nos, envie-nos um e-mail para support{'@'}chattyevent.com. Obrigado por utilizar a nossa aplicação!",
           },
         },        
         imprint: {
@@ -798,7 +798,7 @@ export default defineI18nConfig(() => ({
             terminationText: "Ci riserviamo il diritto di porre fine al vostro utilizzo della nostra applicazione in qualsiasi momento e per qualsiasi motivo, senza preavviso. In caso di cessazione, questi termini rimarranno in vigore integralmente.",
             otherProvisions: "Disposizioni aggiuntive",
             otherProvisionsText: "Se una disposizione di questi termini viene dichiarata invalida o inapplicabile, la validità e l'applicabilità delle altre disposizioni rimarranno invariate. La nostra omissione o ritardo nel far rispettare una disposizione di questi termini non costituisce una rinuncia al diritto di far rispettare tale disposizione in seguito.",
-            contactText: "Questi termini costituiscono l'accordo completo e definitivo tra voi e noi riguardo al vostro utilizzo della nostra applicazione e sostituiscono tutti gli accordi, negoziati e discussioni precedenti o contemporanei tra noi. Se avete domande o preoccupazioni riguardo a questi termini o desiderate contattarci, inviateci un'e-mail a support@chattyevent.com. Grazie per l'utilizzo della nostra applicazione!",
+            contactText: "Questi termini costituiscono l'accordo completo e definitivo tra voi e noi riguardo al vostro utilizzo della nostra applicazione e sostituiscono tutti gli accordi, negoziati e discussioni precedenti o contemporanei tra noi. Se avete domande o preoccupazioni riguardo a questi termini o desiderate contattarci, inviateci un'e-mail a support{'@'}chattyevent.com. Grazie per l'utilizzo della nostra applicazione!",
           },
         },        
         imprint: {
@@ -944,7 +944,7 @@ export default defineI18nConfig(() => ({
             terminationText: "Nous nous réservons le droit de mettre fin à votre utilisation de notre application à tout moment et pour quelque raison que ce soit, sans préavis. En cas de résiliation, ces conditions restent en vigueur en totalité.",
             otherProvisions: "Dispositions diverses",
             otherProvisionsText: "Si une disposition de ces conditions est déclarée invalide ou inapplicable, la validité et l'applicabilité des autres dispositions restent inchangées. Notre omission ou notre retard à faire respecter une disposition de ces conditions ne constitue pas une renonciation au droit d'appliquer ultérieurement cette disposition.",
-            contactText: "Ces conditions constituent l'accord complet et final entre vous et nous concernant votre utilisation de notre application et remplacent tous les accords, négociations et discussions antérieurs ou simultanés entre nous. Si vous avez des questions ou des préoccupations concernant ces conditions ou si vous souhaitez nous contacter, veuillez nous envoyer un e-mail à l'adresse support@chattyevent.com. Merci d'utiliser notre application !",
+            contactText: "Ces conditions constituent l'accord complet et final entre vous et nous concernant votre utilisation de notre application et remplacent tous les accords, négociations et discussions antérieurs ou simultanés entre nous. Si vous avez des questions ou des préoccupations concernant ces conditions ou si vous souhaitez nous contacter, veuillez nous envoyer un e-mail à l'adresse support{'@'}chattyevent.com. Merci d'utiliser notre application !",
           },
         },        
         imprint: {
