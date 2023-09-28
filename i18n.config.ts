@@ -144,7 +144,7 @@ export default defineI18nConfig(() => ({
         },
         box3: {
           title: "Why are messages automatically deleted?",
-          answer: "Messages are automatically deleted after 365 days to save resources."
+          answer: "Messages are automatically deleted after 730 days to save resources."
         }
       }
     },
@@ -290,7 +290,7 @@ export default defineI18nConfig(() => ({
         },
         box3: {
           title: "Warum werden Nachrichten automatisch gelöscht?",
-          answer: "Nachrichten werden automatisch nach 365 Tagen gelöscht, um Ressourcen zu sparen."
+          answer: "Nachrichten werden automatisch nach 730 Tagen gelöscht, um Ressourcen zu sparen."
         }
       },
     },
@@ -436,7 +436,7 @@ export default defineI18nConfig(() => ({
         },
         box3: {
           title: "Waarom worden berichten automatisch verwijderd?",
-          answer: "Berichten worden automatisch na 365 dagen verwijderd om middelen te besparen."
+          answer: "Berichten worden automatisch na 730 dagen verwijderd om middelen te besparen."
         }
       },
     },
@@ -582,7 +582,7 @@ export default defineI18nConfig(() => ({
         },
         box3: {
           title: "¿Por qué se eliminan automáticamente los mensajes?",
-          answer: "Los mensajes se eliminan automáticamente después de 365 días para ahorrar recursos."
+          answer: "Los mensajes se eliminan automáticamente después de 730 días para ahorrar recursos."
         }
       },
     },
@@ -728,7 +728,7 @@ export default defineI18nConfig(() => ({
         },
         box3: {
           title: "Por que razão as mensagens são eliminadas automaticamente?",
-          answer: "As mensagens são eliminadas automaticamente após 365 dias para poupar recursos."
+          answer: "As mensagens são eliminadas automaticamente após 730 dias para poupar recursos."
         }
       },
     },
@@ -874,7 +874,7 @@ export default defineI18nConfig(() => ({
         },
         box3: {
           title: "Perché i messaggi vengono eliminati automaticamente?",
-          answer: "I messaggi vengono eliminati automaticamente dopo 365 giorni per risparmiare risorse."
+          answer: "I messaggi vengono eliminati automaticamente dopo 730 giorni per risparmiare risorse."
         }
       },
     },
@@ -1020,7 +1020,7 @@ export default defineI18nConfig(() => ({
         },
         box3: {
           title: "Pourquoi les messages sont-ils automatiquement supprimés ?",
-          answer: "Les messages sont automatiquement supprimés après 365 jours pour économiser des ressources."
+          answer: "Les messages sont automatiquement supprimés après 730 jours pour économiser des ressources."
         }
       },
     }  
