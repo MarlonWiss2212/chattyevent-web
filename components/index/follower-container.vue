@@ -1,9 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
 <template>
-  <index-container title="Freunde / Follower">
+  <index-container :title="t('index.container.friends.title')">
     <NuxtImg alt="ChattyEvent Discover Page Image" src="/discoverpage.png" class="w-52"/>
     <p>
-      Ebenso stellt ChattyEvent ein ausgeklügeltes Freundschaftssystem bereit, das Ihnen erlaubt, die Befugnisse Ihrer Freunde gezielt zu verwalten. Das bedeutet, dass Sie gezielt auswählen können, welche Freunde Sie in eine Gruppe einbinden und wie weitreichend ihr Zugriff sein soll. Individuelle Berechtigungen lassen sich ganz nach Ihren Wünschen für jeden Freund anpassen – dies gewährleistet eine durchorganisierte und geschützte Gruppendynamik.
+      {{ t('index.container.friends.message') }}
     </p>
   </index-container>
 </template>

@@ -1,11 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
 <template>
-  <index-container title="Chats">
+  <index-container :title="t('index.container.chats.title')">
     <NuxtImg alt="ChattyEvent Chats Image" src="/chat.png" class="w-52"/>
     <p>
-      In ChattyEvent gibt es 3 Arten von Chats: "Gruppenchats", "Eventchats", "Einzelchats"
+      {{ t('index.container.chats.message') }}
       <br><br>
-      Gruppenchat und Einzelchats kommt ihnen bestimmt von anderen Platformen bekannt vor. Falls sie ein Event geplannt haben welches einmalig stattfindet und keine verbindung zu einem Gruppenchat hat, können sie in dem Event schreiben und planen
+      {{ t('index.container.chats.message2') }}
     </p>
   </index-container>
 </template>

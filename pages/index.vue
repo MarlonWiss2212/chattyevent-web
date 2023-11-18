@@ -16,12 +16,8 @@ const { t } = useI18n()
           <h2 class="max-w-4xl text-4xl md:text-5xl font-semibold">{{ t('index.title') }}</h2>
           <h3 class="max-w-4xl font-semibold">{{ t('index.description') }}</h3>
           <div class="flex flex-row gap-4 items-center">
-            <NuxtLink target="_blank" to="https://apps.apple.com/de/app/chattyevent/id6463625762">
-              <AppStoreBadge class="w-48" />
-            </NuxtLink>
-            <NuxtLink target="_blank" to="https://play.google.com/store/apps/details?id=com.chattyevent.chattyevent">
-              <NuxtImg class="w-52" alt="ChattyEvent Play Store Link" src="/google-play-badge.png" />
-            </NuxtLink>
+            <AppStoreBadge />
+            <PlayStoreBadge />
           </div>
         </div>
         <NuxtImg class="w-96" alt="ChattyEvent Chat List image" src="/chatlist.png" />

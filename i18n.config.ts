@@ -5,12 +5,30 @@ export default defineI18nConfig(() => ({
     en: {
       appBar: {
         datasecurity: "Datasecurity",
-        blog: "Blog",
         faq: "FAQ"
       },
       index: {
         title: "Plan your events and parties easily and chat with your friends using ChattyEvent!",
-        description: "ChattyEvent is the ultimate solution for your party and event planning! Our innovative app is all about group interaction and makes it easy for you to communicate with your friends, family or colleagues. Whether you're organizing an epic party or just want to keep in closer touch, ChattyEvent is the ideal companion to bring all your contacts together in one central place."
+        description: "ChattyEvent is the ultimate solution for your party and event planning! Our innovative app is all about group interaction and makes it easy for you to communicate with your friends, family or colleagues. Whether you're organizing an epic party or just want to keep in closer touch, ChattyEvent is the ideal companion to bring all your contacts together in one central place.",
+        container: {
+          events: {
+            title: "Events",
+            message: "ChattyEvent's special party planning feature allows you to quickly and effortlessly organize events and easily share all the details. You can link the event to a group chat or plan it independently. This innovative function ensures that everyone is invited and that all relevant details are easily visible at a glance."
+          },
+          chats: {
+            title: "Chats",
+            message: 'In ChattyEvent, there are 3 types of chats: "Group Chats," "Event Chats," "Individual Chats"',
+            message2: "Group chats and individual chats may sound familiar to you from other platforms. Additionally, we have event chats. If you have planned an event that is a one-time occurrence and is not connected to a group chat, you can write in the event."
+          },
+          friends: {
+            title: "Friends / Followers",
+            message: "ChattyEvent also provides a sophisticated friendship system that allows you to manage your friends' permissions selectively. This means you can choose specifically which friends to include in a group and the extent of their access. Individual permissions can be tailored to your preferences for each friend, ensuring an organized and secure group dynamic."
+          },
+          shoppinglist: {
+            title: "Shopping List",
+            message: "To further simplify event planning, we have even integrated a practical shopping list function into ChattyEvent. This way, you can clearly define what contributions each event participant should make. This prevents anything from being forgotten and allows you to coordinate all the details perfectly in advance."
+          }
+        }        
       },
       datasecurity: {
         privacyPolicy: {
@@ -129,9 +147,6 @@ export default defineI18nConfig(() => ({
           }
         }
       },
-      blog: {
-        title: "No content so far"
-      },
       faq: {
         title: "Frequently asked questions",
         box1: {
@@ -140,8 +155,7 @@ export default defineI18nConfig(() => ({
         },
         box2: {
           title: "Is it possible to delete messages afterwards?",
-          answer: "No, once messages have been sent, they cannot be deleted. An exception is if you delete your entire account, then all messages ever written will be deleted. We are working on a feature so that you can delete individual chats with other users, but this will not be released until Q4 at the earliest."
-        },
+          answer: "Yes, messages can be deleted individually. Also, when deleting your account, all your sent messages will be deleted."        },
         box3: {
           title: "Why are messages automatically deleted?",
           answer: "Messages are automatically deleted after 730 days to save resources."
@@ -151,12 +165,30 @@ export default defineI18nConfig(() => ({
     de: {
       appBar: {
         datasecurity: "Datensicherheit",
-        blog: "Blog",
         faq: "FAQ"
       },
       index: {
         title: "Plane deine Events und Partys einfach und chatte mit deinen Freunden mit ChattyEvent!",
-        description: "ChattyEvent ist die ultimative Lösung für deine Party- und Eventplanung! Unsere innovative App dreht sich alles um Gruppeninteraktion und macht es dir leicht, mit deinen Freunden, deiner Familie oder deinen Kollegen zu kommunizieren. Egal, ob du eine epische Party organisierst oder einfach in engerem Kontakt bleiben möchtest, ChattyEvent ist der ideale Begleiter, um alle deine Kontakte an einem zentralen Ort zusammenzubringen."
+        description: "ChattyEvent ist die ultimative Lösung für deine Party- und Eventplanung! Unsere innovative App dreht sich alles um Gruppeninteraktion und macht es dir leicht, mit deinen Freunden, deiner Familie oder deinen Kollegen zu kommunizieren. Egal, ob du eine epische Party organisierst oder einfach in engerem Kontakt bleiben möchtest, ChattyEvent ist der ideale Begleiter, um alle deine Kontakte an einem zentralen Ort zusammenzubringen.",
+        container: {
+          events: {
+            title: "Events",
+            message: "Die spezielle Party-Planungsfunktion von ChattyEvent ermöglicht es Ihnen, Events rasch und mühelos auf die Beine zu stellen und sämtliche Details spielend zu teilen. Hierbei können Sie die Veranstaltung mit einem Gruppenchat verknüpfen oder auch unabhängig davon planen. Diese innovative Funktion gewährleistet, dass wirklich jeder eingeladen wird und dass sämtliche relevanten Einzelheiten auf einen Blick ersichtlich sind."
+          },
+          chats: {
+            title: "Chats",
+            message: 'In ChattyEvent gibt es 3 Arten von Chats: "Gruppenchats", "Eventchats", "Einzelchats"',
+            message2: "Gruppenchat und Einzelchats kommt ihnen bestimmt von anderen Platformen bekannt vor. Wir haben zusätzlich noch Eventchats. Falls sie ein Event geplannt haben welches einmalig stattfindet und keine verbindung zu einem Gruppenchat hat, können sie in dem Event schreiben.",
+          },
+          friends: {
+            title: "Freunde / Follower",
+            message: "Ebenso stellt ChattyEvent ein ausgeklügeltes Freundschaftssystem bereit, das Ihnen erlaubt, die Befugnisse Ihrer Freunde gezielt zu verwalten. Das bedeutet, dass Sie gezielt auswählen können, welche Freunde Sie in eine Gruppe einbinden und wie weitreichend ihr Zugriff sein soll. Individuelle Berechtigungen lassen sich ganz nach Ihren Wünschen für jeden Freund anpassen – dies gewährleistet eine durchorganisierte und geschützte Gruppendynamik."
+          },
+          shoppinglist: {
+            title: "Einkaufsliste",
+            message: "Um die Event-Planung noch weiter zu vereinfachen, haben wir sogar eine praktische Einkaufslistenfunktion integriert. Auf diese Weise können Sie klipp und klar festlegen, welche Beiträge jeder Event-Teilnehmer beisteuern sollte. So verhindern Sie, dass irgendetwas vergessen wird, und können sämtliche Einzelheiten im Vorfeld perfekt koordinieren."
+          }
+        }
       },
       datasecurity: {
         privacyPolicy: {
@@ -275,9 +307,6 @@ export default defineI18nConfig(() => ({
           },
         },        
       },
-      blog: {
-        title: "Bisher kein Inhalt"
-      },
       faq: {
         title: "Häufig gestellte Fragen",
         box1: {
@@ -286,7 +315,7 @@ export default defineI18nConfig(() => ({
         },
         box2: {
           title: "Ist es möglich, Nachrichten nachträglich zu löschen?",
-          answer: "Nein, einmal gesendete Nachrichten können nicht gelöscht werden. Eine Ausnahme besteht darin, dass alle Nachrichten gelöscht werden, wenn Sie Ihr gesamtes Konto löschen. Wir arbeiten an einer Funktion, mit der Sie individuelle Chats mit anderen Benutzern löschen können, aber diese wird frühestens im vierten Quartal veröffentlicht."
+          answer: "Ja, Nachrichten können einzelnt gelöscht werden. Es werden außerdem beim Löschen ihres Kontos alle ihre Nachrichten gelöscht, die sie gesendet haben."
         },
         box3: {
           title: "Warum werden Nachrichten automatisch gelöscht?",
@@ -297,12 +326,30 @@ export default defineI18nConfig(() => ({
     nl: {
       appBar: {
         datasecurity: "Gegevensbeveiliging",
-        blog: "Blog",
         faq: "Veelgestelde vragen"
       },
       index: {
         title: "Plan eenvoudig je evenementen en feesten en chat met je vrienden met ChattyEvent!",
-        description: "ChattyEvent is de ultieme oplossing voor het plannen van je feesten en evenementen! Onze innovatieve app draait om groepsinteractie en maakt het gemakkelijk om te communiceren met je vrienden, familie of collega's. Of je nu een episch feest organiseert of gewoon in nauwer contact wilt blijven, ChattyEvent is de ideale metgezel om al je contacten op één centrale plek samen te brengen."
+        description: "ChattyEvent is de ultieme oplossing voor het plannen van je feesten en evenementen! Onze innovatieve app draait om groepsinteractie en maakt het gemakkelijk om te communiceren met je vrienden, familie of collega's. Of je nu een episch feest organiseert of gewoon in nauwer contact wilt blijven, ChattyEvent is de ideale metgezel om al je contacten op één centrale plek samen te brengen.",
+        container: {
+          events: {
+            title: "Evenementen",
+            message: "De speciale feestplanningsfunctie van ChattyEvent stelt u in staat om snel en moeiteloos evenementen te organiseren en alle details eenvoudig te delen. U kunt het evenement koppelen aan een groepschat of het onafhankelijk plannen. Deze innovatieve functie zorgt ervoor dat iedereen wordt uitgenodigd en dat alle relevante details in één oogopslag zichtbaar zijn."
+          },
+          chats: {
+            title: "Chats",
+            message: 'In ChattyEvent zijn er 3 soorten chats: "Groepschats", "Evenementchats", "Individuele chats"',
+            message2: "Groepschats en individuele chats zullen u waarschijnlijk bekend voorkomen van andere platforms. Daarnaast hebben we ook nog evenementchats. Als u een evenement hebt gepland dat eenmalig plaatsvindt en niet is verbonden met een groepschat, kunt u in het evenement schrijven."
+          },
+          friends: {
+            title: "Vrienden / Volgers",
+            message: "ChattyEvent biedt ook een geavanceerd vriendschapssysteem waarmee u de rechten van uw vrienden gericht kunt beheren. Dit betekent dat u specifiek kunt kiezen welke vrienden u in een groep wilt opnemen en hoe uitgebreid hun toegang moet zijn. Individuele rechten kunnen naar wens worden aangepast voor elke vriend, wat zorgt voor een georganiseerde en beschermde groepsdynamiek."
+          },
+          shoppinglist: {
+            title: "Boodschappenlijst",
+            message: "Om de evenementenplanning verder te vereenvoudigen, hebben we zelfs een handige boodschappenlijstfunctie geïntegreerd in ChattyEvent. Op deze manier kunt u duidelijk bepalen welke bijdragen elke deelnemer aan het evenement moet leveren. Hiermee voorkomt u dat er iets wordt vergeten en kunt u alle details perfect coördineren."
+          }
+        }        
       },
       datasecurity: {
         privacyPolicy: {
@@ -421,9 +468,6 @@ export default defineI18nConfig(() => ({
           },
         },
       },
-      blog: {
-        title: "Nog geen inhoud"
-      },
       faq: {
         title: "Veelgestelde vragen",
         box1: {
@@ -432,8 +476,7 @@ export default defineI18nConfig(() => ({
         },
         box2: {
           title: "Is het mogelijk om berichten achteraf te verwijderen?",
-          answer: "Nee, zodra berichten zijn verzonden, kunnen ze niet worden verwijderd. Een uitzondering is als je je hele account verwijdert, dan worden alle ooit geschreven berichten verwijderd. We werken aan een functie waarmee je individuele chats met andere gebruikers kunt verwijderen, maar dit wordt pas in het vierde kwartaal uitgebracht."
-        },
+          answer: "Ja, berichten kunnen individueel worden verwijderd. Bovendien worden bij het verwijderen van uw account al uw verzonden berichten verwijderd."        },
         box3: {
           title: "Waarom worden berichten automatisch verwijderd?",
           answer: "Berichten worden automatisch na 730 dagen verwijderd om middelen te besparen."
@@ -443,12 +486,30 @@ export default defineI18nConfig(() => ({
     es: {
       appBar: {
         datasecurity: "Seguridad de datos",
-        blog: "Blog",
         faq: "Preguntas frecuentes"
       },
       index: {
         title: "¡Planifica tus eventos y fiestas fácilmente y habla con tus amigos con ChattyEvent!",
-        description: "¡ChattyEvent es la solución definitiva para la planificación de fiestas y eventos! Nuestra innovadora aplicación se trata de la interacción en grupo y te facilita la comunicación con tus amigos, familiares o colegas. Ya sea que estés organizando una fiesta épica o simplemente quieras mantener un contacto más cercano, ChattyEvent es el compañero ideal para reunir todos tus contactos en un solo lugar central."
+        description: "¡ChattyEvent es la solución definitiva para la planificación de fiestas y eventos! Nuestra innovadora aplicación se trata de la interacción en grupo y te facilita la comunicación con tus amigos, familiares o colegas. Ya sea que estés organizando una fiesta épica o simplemente quieras mantener un contacto más cercano, ChattyEvent es el compañero ideal para reunir todos tus contactos en un solo lugar central.",
+        container: {
+          events: {
+            title: "Eventos",
+            message: "La función especial de planificación de fiestas de ChattyEvent le permite organizar eventos de manera rápida y sencilla, compartiendo todos los detalles sin esfuerzo. Puede vincular el evento a un chat grupal o planificarlo de forma independiente. Esta función innovadora garantiza que todos sean invitados y que todos los detalles relevantes sean visibles de un vistazo."
+          },
+          chats: {
+            title: "Chats",
+            message: 'En ChattyEvent hay 3 tipos de chats: "Chats grupales", "Chats de eventos", "Chats individuales"',
+            message2: "Los chats grupales y los chats individuales seguramente les resultarán familiares de otras plataformas. También tenemos chats de eventos adicionales. Si ha planeado un evento que es único y no tiene conexión con un chat grupal, puede escribir en el evento."
+          },
+          friends: {
+            title: "Amigos / Seguidores",
+            message: "ChattyEvent también proporciona un sistema sofisticado de amistad que le permite gestionar las autorizaciones de sus amigos de manera específica. Esto significa que puede elegir específicamente qué amigos incluir en un grupo y cuál será su nivel de acceso. Las autorizaciones individuales se pueden ajustar según sus preferencias para cada amigo, garantizando una dinámica de grupo organizada y protegida."
+          },
+          shoppinglist: {
+            title: "Lista de Compras",
+            message: "Para simplificar aún más la planificación del evento, hemos integrado una práctica función de lista de compras en ChattyEvent. De esta manera, puede establecer claramente qué aportes debe hacer cada participante del evento. Esto evita olvidos y permite coordinar perfectamente todos los detalles de antemano."
+          }
+        }        
       },
       datasecurity: {
         privacyPolicy: {
@@ -567,9 +628,6 @@ export default defineI18nConfig(() => ({
           },
         },        
       },
-      blog: {
-        title: "Sin contenido por el momento"
-      },
       faq: {
         title: "Preguntas frecuentes",
         box1: {
@@ -578,8 +636,7 @@ export default defineI18nConfig(() => ({
         },
         box2: {
           title: "¿Es posible eliminar mensajes después de enviarlos?",
-          answer: "No, una vez que los mensajes se han enviado, no se pueden eliminar. Una excepción es si eliminas toda tu cuenta, entonces se eliminarán todos los mensajes escritos. Estamos trabajando en una función para que puedas eliminar chats individuales con otros usuarios, pero esto no se lanzará hasta el cuarto trimestre como muy pronto."
-        },
+          answer: "Sí, los mensajes se pueden eliminar individualmente. Además, al eliminar su cuenta, se eliminarán todos sus mensajes enviados."        },
         box3: {
           title: "¿Por qué se eliminan automáticamente los mensajes?",
           answer: "Los mensajes se eliminan automáticamente después de 730 días para ahorrar recursos."
@@ -589,12 +646,30 @@ export default defineI18nConfig(() => ({
     pt: {
       appBar: {
         datasecurity: "Segurança de dados",
-        blog: "Blog",
         faq: "Perguntas frequentes"
       },
       index: {
         title: "Planeie facilmente os seus eventos, festas e converse com os seus amigos com o ChattyEvent!",
-        description: "O ChattyEvent é a solução definitiva para o planeamento das suas festas e eventos! A nossa inovadora aplicação gira em torno da interação em grupo e torna fácil a comunicação com os seus amigos, família ou colegas. Quer esteja a organizar uma festa épica ou apenas queira manter um contacto mais próximo, o ChattyEvent é o companheiro ideal para reunir todos os seus contactos num único local central."
+        description: "O ChattyEvent é a solução definitiva para o planeamento das suas festas e eventos! A nossa inovadora aplicação gira em torno da interação em grupo e torna fácil a comunicação com os seus amigos, família ou colegas. Quer esteja a organizar uma festa épica ou apenas queira manter um contacto mais próximo, o ChattyEvent é o companheiro ideal para reunir todos os seus contactos num único local central.",
+        container: {
+          events: {
+            title: "Eventos",
+            message: "A função especial de planejamento de festas do ChattyEvent permite que você organize eventos rapidamente e sem esforço, compartilhando todos os detalhes facilmente. Você pode vincular o evento a um bate-papo em grupo ou planejá-lo independentemente. Essa função inovadora garante que todos sejam convidados e que todos os detalhes relevantes estejam visíveis de relance."
+          },
+          chats: {
+            title: "Conversas",
+            message: 'No ChattyEvent, existem 3 tipos de chats: "Conversas em grupo", "Conversas de evento", "Conversas individuais"',
+            message2: "Conversas em grupo e conversas individuais devem ser familiares a você de outras plataformas. Além disso, temos as conversas de evento. Se você planejou um evento que acontece apenas uma vez e não está vinculado a uma conversa em grupo, você pode escrever no evento."
+          },
+          friends: {
+            title: "Amigos / Seguidores",
+            message: "O ChattyEvent também fornece um sistema de amizade sofisticado que permite que você gerencie as permissões de seus amigos de forma direcionada. Isso significa que você pode escolher especificamente quais amigos incluir em um grupo e quais serão suas permissões. As permissões individuais podem ser ajustadas conforme suas preferências para cada amigo, garantindo uma dinâmica de grupo organizada e protegida."
+          },
+          shoppinglist: {
+            title: "Lista de Compras",
+            message: "Para simplificar ainda mais o planejamento do evento, incorporamos uma função prática de lista de compras no ChattyEvent. Dessa forma, você pode definir claramente quais contribuições cada participante do evento deve fazer. Isso evita esquecimentos e permite coordenar perfeitamente todos os detalhes antecipadamente."
+          }
+        }        
       },
       datasecurity: {
         privacyPolicy: {
@@ -713,9 +788,6 @@ export default defineI18nConfig(() => ({
           },
         },        
       },
-      blog: {
-        title: "Ainda sem conteúdo"
-      },
       faq: {
         title: "Perguntas frequentes",
         box1: {
@@ -724,7 +796,7 @@ export default defineI18nConfig(() => ({
         },
         box2: {
           title: "É possível eliminar mensagens depois de as enviar?",
-          answer: "Não, uma vez que as mensagens tenham sido enviadas, não podem ser eliminadas. Uma exceção é se eliminar toda a sua conta, nesse caso, todas as mensagens já escritas serão eliminadas. Estamos a trabalhar numa funcionalidade para que possa eliminar chats individuais com outros utilizadores, mas isso só será lançado no quarto trimestre, no mínimo."
+          answer: "Sim, as mensagens podem ser excluídas individualmente. Além disso, ao excluir sua conta, todas as suas mensagens enviadas serão excluídas."
         },
         box3: {
           title: "Por que razão as mensagens são eliminadas automaticamente?",
@@ -735,12 +807,30 @@ export default defineI18nConfig(() => ({
     it: {
       appBar: {
         datasecurity: "Sicurezza dei dati",
-        blog: "Blog",
         faq: "Domande frequenti"
       },
       index: {
         title: "Pianifica facilmente i tuoi eventi e feste e chatta con i tuoi amici con ChattyEvent!",
-        description: "ChattyEvent è la soluzione definitiva per la pianificazione delle tue feste ed eventi! La nostra innovativa app è incentrata sull'interazione di gruppo e facilita la comunicazione con i tuoi amici, familiari o colleghi. Che tu stia organizzando una festa epica o desideri mantenere un contatto più stretto, ChattyEvent è il compagno ideale per riunire tutti i tuoi contatti in un unico luogo centrale."
+        description: "ChattyEvent è la soluzione definitiva per la pianificazione delle tue feste ed eventi! La nostra innovativa app è incentrata sull'interazione di gruppo e facilita la comunicazione con i tuoi amici, familiari o colleghi. Che tu stia organizzando una festa epica o desideri mantenere un contatto più stretto, ChattyEvent è il compagno ideale per riunire tutti i tuoi contatti in un unico luogo centrale.",
+        container: {
+          events: {
+            title: "Eventi",
+            message: "La funzione speciale di pianificazione delle feste di ChattyEvent consente di organizzare rapidamente ed efficacemente eventi e condividere facilmente tutti i dettagli. È possibile collegare l'evento a una chat di gruppo o pianificarlo in modo indipendente. Questa funzione innovativa garantisce che tutti siano invitati e che tutti i dettagli rilevanti siano facilmente visibili in un colpo d'occhio."
+          },
+          chats: {
+            title: "Chat",
+            message: 'In ChattyEvent, ci sono 3 tipi di chat: "Chat di gruppo", "Chat di evento", "Chat individuali"',
+            message2: "Le chat di gruppo e le chat individuali vi saranno sicuramente familiari da altre piattaforme. Inoltre, abbiamo anche le chat di evento. Se avete pianificato un evento che si svolge una sola volta e non è collegato a una chat di gruppo, potete scrivere nell'evento."
+          },
+          friends: {
+            title: "Amici / Follower",
+            message: "ChattyEvent fornisce anche un sistema sofisticato di amicizia che consente di gestire selettivamente le autorizzazioni dei propri amici. Ciò significa che è possibile scegliere specificamente quali amici includere in un gruppo e fino a che punto avranno accesso. Le autorizzazioni individuali possono essere personalizzate secondo le vostre preferenze per ogni amico, garantendo una dinamica di gruppo organizzata e protetta."
+          },
+          shoppinglist: {
+            title: "Lista della Spesa",
+            message: "Per semplificare ulteriormente la pianificazione dell'evento, abbiamo integrato addirittura una pratica funzione di lista della spesa in ChattyEvent. In questo modo, è possibile definire chiaramente quali contributi ogni partecipante all'evento dovrebbe apportare. Questo evita che qualcosa venga dimenticato e consente di coordinare perfettamente tutti i dettagli in anticipo."
+          }
+        }        
       },
       datasecurity: {
         privacyPolicy: {
@@ -859,9 +949,6 @@ export default defineI18nConfig(() => ({
           },
         },
       },
-      blog: {
-        title: "Nessun contenuto finora"
-      },
       faq: {
         title: "Domande frequenti",
         box1: {
@@ -870,7 +957,7 @@ export default defineI18nConfig(() => ({
         },
         box2: {
           title: "È possibile eliminare i messaggi dopo averli inviati?",
-          answer: "No, una volta inviati, i messaggi non possono essere eliminati. Un'eccezione è se elimini l'intero account, in tal caso verranno eliminati tutti i messaggi mai scritti. Stiamo lavorando a una funzione che ti permetterà di eliminare le chat individuali con altri utenti, ma questa non sarà rilasciata prima del quarto trimestre, almeno."
+          answer: "Sì, i messaggi possono essere cancellati singolarmente. Inoltre, cancellando il tuo account, verranno cancellati tutti i messaggi inviati."        
         },
         box3: {
           title: "Perché i messaggi vengono eliminati automaticamente?",
@@ -881,12 +968,30 @@ export default defineI18nConfig(() => ({
     fr: {
       appBar: {
         datasecurity: "Sécurité des données",
-        blog: "Blog",
         faq: "Foire aux questions"
       },
       index: {
         title: "Planifiez vos événements et fêtes facilement et discutez avec vos amis grâce à ChattyEvent !",
-        description: "ChattyEvent est la solution ultime pour la planification de vos fêtes et événements ! Notre application innovante repose sur l'interaction de groupe et facilite la communication avec vos amis, votre famille ou vos collègues. Que vous organisiez une fête épique ou que vous souhaitiez simplement rester en contact plus étroit, ChattyEvent est le compagnon idéal pour réunir tous vos contacts en un seul endroit central."
+        description: "ChattyEvent est la solution ultime pour la planification de vos fêtes et événements ! Notre application innovante repose sur l'interaction de groupe et facilite la communication avec vos amis, votre famille ou vos collègues. Que vous organisiez une fête épique ou que vous souhaitiez simplement rester en contact plus étroit, ChattyEvent est le compagnon idéal pour réunir tous vos contacts en un seul endroit central.",
+        container: {
+          events: {
+            title: "Événements",
+            message: "La fonction spéciale de planification de fêtes de ChattyEvent vous permet d'organiser rapidement et facilement des événements et de partager tous les détails sans effort. Vous pouvez lier l'événement à un chat de groupe ou le planifier indépendamment. Cette fonction innovante garantit que tout le monde est invité et que tous les détails pertinents sont visibles en un coup d'œil."
+          },
+          chats: {
+            title: "Chats",
+            message: 'Dans ChattyEvent, il existe 3 types de chats : "Chats de groupe", "Chats d\'événement", "Chats individuels"',
+            message2: "Les chats de groupe et les chats individuels vous seront certainement familiers d'autres plateformes. Nous avons également des chats d'événements supplémentaires. Si vous avez planifié un événement qui a lieu une seule fois et qui n'est pas lié à un chat de groupe, vous pouvez écrire dans l'événement."
+          },
+          friends: {
+            title: "Amis / Abonnés",
+            message: "ChattyEvent propose également un système sophistiqué d'amitié qui vous permet de gérer sélectivement les autorisations de vos amis. Cela signifie que vous pouvez choisir spécifiquement quels amis inclure dans un groupe et quel sera leur accès. Les autorisations individuelles peuvent être adaptées à vos préférences pour chaque ami, assurant une dynamique de groupe organisée et sécurisée."
+          },
+          shoppinglist: {
+            title: "Liste de Courses",
+            message: "Pour simplifier davantage la planification de l'événement, nous avons même intégré une fonction pratique de liste de courses dans ChattyEvent. De cette façon, vous pouvez définir clairement les contributions que chaque participant à l'événement doit apporter. Cela évite d'oublier quoi que ce soit et vous permet de coordonner parfaitement tous les détails à l'avance."
+          }
+        }        
       },
       datasecurity: {
         privacyPolicy: {
@@ -1005,9 +1110,6 @@ export default defineI18nConfig(() => ({
           },
         },        
       },
-      blog: {
-        title: "Aucun contenu pour le moment"
-      },
       faq: {
         title: "Foire aux questions",
         box1: {
@@ -1016,8 +1118,7 @@ export default defineI18nConfig(() => ({
         },
         box2: {
           title: "Est-il possible de supprimer des messages après les avoir envoyés ?",
-          answer: "Non, une fois les messages envoyés, ils ne peuvent pas être supprimés. Une exception est si vous supprimez l'intégralité de votre compte, alors tous les messages jamais écrits seront supprimés. Nous travaillons sur une fonctionnalité vous permettant de supprimer des discussions individuelles avec d'autres utilisateurs, mais cela ne sera pas publié avant le quatrième trimestre, au plus tôt."
-        },
+          answer: "Oui, les messages peuvent être supprimés individuellement. De plus, en supprimant votre compte, tous vos messages envoyés seront supprimés."        },
         box3: {
           title: "Pourquoi les messages sont-ils automatiquement supprimés ?",
           answer: "Les messages sont automatiquement supprimés après 730 jours pour économiser des ressources."

@@ -12,7 +12,6 @@ const localePath = useLocalePath()
       </NuxtLink>
       <div class="flex flex-row gap-10 overflow-x-auto md:w-0 md:flex-grow">
         <NuxtLink :to="localePath('/datasecurity')" class="font-semibold">{{  t('appBar.datasecurity')  }}</NuxtLink>
-        <NuxtLink :to="localePath('/blog')" class="font-semibold">{{  t('appBar.blog')  }}</NuxtLink>
         <NuxtLink :to="localePath('/faq')" class="font-semibold">{{  t('appBar.faq')  }}</NuxtLink>
       </div>
     </nav>
